@@ -6,7 +6,7 @@ import 'react-circular-progressbar/dist/styles.css';
 
 export default function Soluctions() {
     return (
-        <section className="h-[auto] w-[100vw] xl:px-80 py-20 hidden lg:block">
+        <section id='Solutions' className="h-[auto] w-[100vw] xl:px-80 py-20 hidden lg:block">
             <h1 className="font-alfa text-4xl font-semibold mb-20 text-center text-white">
                 Nos relacionamos com o ecossistema da sua <br />
                 empresa para inovar e atingir resultados extraordinários

@@ -85,7 +85,7 @@ export default function Desktop() {
             className={`nav-link ${
               activeSection === "Expirience" ? "active" : ""
             } mx-2`}
-            onClick={() => smoothScrollToSection("Expirience")}
+            onClick={() => smoothScrollToSection("Solutions")}
           >
             Experiência
           </button>
@@ -93,7 +93,7 @@ export default function Desktop() {
             className={`nav-link ${
               activeSection === "Testimonials" ? "active" : ""
             } mx-2`}
-            onClick={() => smoothScrollToSection("Testimonials")}
+            onClick={() => smoothScrollToSection("Feedbacks")}
           >
             Testemunhos
           </button>
