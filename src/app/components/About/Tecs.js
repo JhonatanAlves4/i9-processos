@@ -11,7 +11,7 @@ export default function Tecs() {
       </h1>
 
       <div className="flex justify-between w-[1400px] mt-4">
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group cursor-pointer">
           <Image
             src="/html.svg"
             layout="responsive"
@@ -23,7 +23,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group cursor-pointer">
           <Image
             src="/css.svg"
             layout="responsive"
@@ -35,7 +35,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group cursor-pointer">
           <Image
             src="/github.svg"
             layout="responsive"
@@ -47,7 +47,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group cursor-pointer">
           <Image
             src="/c++.svg"
             layout="responsive"
@@ -59,7 +59,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group cursor-pointer">
           <Image
             src="/js.svg"
             layout="responsive"
@@ -71,7 +71,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group cursor-pointer">
           <Image
             src="/react.svg"
             layout="responsive"
@@ -83,7 +83,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group cursor-pointer">
           <Image
             src="/vscode.svg"
             layout="responsive"
@@ -95,7 +95,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] mt-24 relative group cursor-pointer">
           <Image
             src="/python.svg"
             layout="responsive"
@@ -107,7 +107,7 @@ export default function Tecs() {
           <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
-        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group">
+        <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-28 md:h-28 lg:w-[32] lg:h-[32] relative group cursor-pointer">
           <Image
             src="/vue.svg"
             layout="responsive"
