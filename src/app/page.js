@@ -9,6 +9,7 @@ import HomePartners from "./components/Partners/HomePartners";
 import Services2 from "./components/Services/Services2";
 import Soluctions from "./components/Soluctions/Soluctions";
 import Testimonials2 from "./components/Testimonials2/Testimonials2";
+import WhatsAppButton from "./components/WhatsApp/WhatsApp"
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <HomePartners />
       <Contact />
       <Footer />
+      <WhatsAppButton />
     </main>
   );
 }
