@@ -37,16 +37,14 @@ export default function Hero() {
               ENTRE EM CONTATO
             </button>
           </div>
-          <div className="absolute left-1/2 -bottom-6 w-16 h-16 rounded-full flex items-center justify-center aling-center bg-blue-800 animate-bounce">
             <button
-              className="text-black p-2"
+              className="absolute left-1/2 -bottom-6 w-16 h-16 rounded-full flex items-center justify-center aling-center bg-blue-800 animate-bounce text-black p-2"
               onClick={() => smoothScrollToSection("About")}
             >
               <Link href="#About">
                 <ArrowDown />
               </Link>
             </button>
-          </div>
         </div>
       </div>
     </section>
