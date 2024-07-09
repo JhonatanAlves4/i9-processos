@@ -65,8 +65,8 @@ export default function Services2() {
             <div className="relative">
                 <ul className="buttons flex justify-between mx-10 rounded-lg px-4 py-2">
                     {["Desenvolvimento de software", "Consultoria e gestão de projetos", "Outsourcing", "SurveyPro", "NextSuite", "Rifa Fácil", "I9 Car", "RP"].map((text, index) => (
-                        <li key={index} className={`font-alfa flex-1 flex items-center justify-center px-2 py-2 mx-2 rounded-lg text-lg font-medium ${activeIndex === index ? 'active' : ''}`}>
-                            <button onClick={() => handleButtonClick(index)} className="text-center">
+                        <li key={index} onClick={() => handleButtonClick(index)} className={`font-alfa flex-1 cursor-pointer hover:bg-customPurple300 ease-out duration-300 flex items-center justify-center px-2 py-2 mx-2 rounded-lg text-lg font-medium ${activeIndex === index ? 'active' : ''}`}>
+                            <button className="text-center">
                                 {text.split(' ').map((line, i) => (
                                     <React.Fragment key={i}>
                                         {line}

@@ -42,30 +42,24 @@ export default function Desktop() {
   };
 
   return (
-    <nav className="hidden lg:block w-[100vw]">
-      <div className="fixed w-full top-0 z-50 h-[8px] bg-customPurple100"></div>
-      <div className="fixed w-[96%] ml-10 top-2 z-50 h-[79px] bg-customBlue100 shadow-lg flex items-center justify-between px-20 rounded-full">
+    <nav className="flex flex-col items-center w-[100%]">
+      <div className="fixed w-full top-0 z-50 h-[50px] bg-customPurple100"></div>
+      <div className="flex fixed w-[96%] top-2 z-50 h-[79px] bg-customBlue100 shadow-lg items-center justify-between px-20 rounded-full">
         <div className="flex items-center justify-between w-full px-10 text-xl">
           <button
-            className={`nav-link ${
-              activeSection === "Hero" ? "active" : ""
-            } mx-2`}
+            className={`nav-link mx-2`}
             onClick={() => smoothScrollToSection("Hero")}
           >
             Início
           </button>
           <button
-            className={`nav-link ${
-              activeSection === "About" ? "active" : ""
-            } mx-2`}
+            className={`nav-link mx-2`}
             onClick={() => smoothScrollToSection("About")}
           >
             Sobre
           </button>
           <button
-            className={`nav-link ${
-              activeSection === "Services" ? "active" : ""
-            } mx-2`}
+            className={`nav-link mx-2`}
             onClick={() => smoothScrollToSection("Services")}
           >
             Serviços
@@ -82,25 +76,19 @@ export default function Desktop() {
           </div>
 
           <button
-            className={`nav-link ${
-              activeSection === "Expirience" ? "active" : ""
-            } mx-2`}
+            className={`nav-link mx-2`}
             onClick={() => smoothScrollToSection("Solutions")}
           >
             Experiência
           </button>
           <button
-            className={`nav-link ${
-              activeSection === "Testimonials" ? "active" : ""
-            } mx-2`}
+            className={`nav-link mx-2`}
             onClick={() => smoothScrollToSection("Feedbacks")}
           >
             Testemunhos
           </button>
           <button
-            className={`nav-link ${
-              activeSection === "Contact" ? "active" : ""
-            } mx-2`}
+            className={`nav-link mx-2`}
             onClick={() => smoothScrollToSection("Contact")}
           >
             Contato
