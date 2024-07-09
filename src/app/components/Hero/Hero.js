@@ -19,7 +19,7 @@ export default function Hero() {
       <div className={`hero-background`}>
         <div className="h-full w-full flex flex-col justify-center items-start relative">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-customBlue to-transparent opacity-100 rounded-[50px]"></div>
-          <div className="flex flex-col z-10 ml-[80px] mr-8 w-[800px]">
+          <div className="flex flex-col z-10 ml-[100px] mr-8 w-[800px]">
             <h1 className="font-alfa-bold mb-8 text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-[4.125rem] w-full text-white xl:leading-tight">
               Soluções inteligentes
               <br /> para empresas

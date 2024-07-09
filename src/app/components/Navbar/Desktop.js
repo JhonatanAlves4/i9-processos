@@ -45,7 +45,7 @@ export default function Desktop() {
     <nav className="flex flex-col items-center w-[100%]">
       <div className="fixed w-full top-0 z-50 h-[50px] bg-customPurple100"></div>
       <div className="flex fixed w-[96%] top-2 z-50 h-[79px] bg-customBlue100 shadow-lg items-center rounded-full">
-        <div className="flex items-center justify-between w-full p-24 text-xl">
+        <div className="flex items-center justify-between w-full p-28 text-xl">
           <div className={`w-[120px]`}>
             <button
               className={`nav-link font-semibold`}
