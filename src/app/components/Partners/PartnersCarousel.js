@@ -16,17 +16,16 @@ export default function PartnersCarousel(){
     ];
 
     // Configurações do Slider
-    const settings = {
-        dots: false,        
-        arrows:false,
+    const settings = {       
+        arrows:true,
         infinite: true,
-        speed: 2000,
         slidesToShow: 5,
         slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 0.1,
+        autoplay: false,
         cssEase: 'linear',
         rtl: true,
+        draggable: true,
+        swipeToSlide: true,      
         responsive: [
             {
                 breakpoint: 1024,

@@ -4,7 +4,7 @@ import React from 'react';
 
 const Card = ({imageUrl }) => {
     return (
-        <div className="">
+        <div className="partners-div">
             <Image src={imageUrl} alt='company' width={98} height={98} className="h-40 w-40" />
         </div>
     );

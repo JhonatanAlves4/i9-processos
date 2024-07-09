@@ -251,6 +251,17 @@ body{
   filter: blur(4px);
 }
 
+.slick-next:before, .slick-prev:before {
+  color: #3C0E80 !important;
+  font-size: 30px !important;
+
+}
+
+.partners-div {
+  display: flex;
+  justify-content: center;
+}
+
 
 
 
