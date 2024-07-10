@@ -276,3 +276,13 @@ body{
   width: 10rem;
   height: 8rem;
 }
+.text-services {
+  font-size: 16px;
+  line-height: 1.1rem;
+}
+
+@media (min-width: 1800px) {
+  .text-services {
+    font-size: 18px;
+  }
+}
