@@ -254,7 +254,13 @@ body{
 .slick-next:before, .slick-prev:before {
   color: #3C0E80 !important;
   font-size: 30px !important;
+  content: '←' !important;
+}
 
+.slick-prev:before {
+  color: #3C0E80 !important;
+  font-size: 30px !important;
+  content: '→' !important;
 }
 
 .partners-div {
@@ -262,10 +268,11 @@ body{
   justify-content: center;
 }
 
+.slider-container {
+  height: 130px;
+}
 
-
-
-
-
-
-
+.card-size {
+  width: 10rem;
+  height: 8rem;
+}
