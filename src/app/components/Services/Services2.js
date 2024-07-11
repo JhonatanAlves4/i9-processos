@@ -86,16 +86,16 @@ export default function Services2() {
                     </div>
                     <div>
                         <div className="grid grid-cols-2 gap-8 mb-4 z-1">
-                            <div className="cards bg-gray-100 px-12 py-12 rounded-lg">
+                            <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
                                 <p>algum conteúdo aqui</p>
                             </div>
-                            <div className="cards bg-gray-100 px-12 py-12 rounded-lg">
+                            <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
                                 <p>algum conteúdo aqui</p>
                             </div>
-                            <div className="cards bg-gray-100 px-12 py-12 rounded-lg">
+                            <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
                                 <p>algum conteúdo aqui</p>
                             </div>
-                            <div className="cards bg-gray-100 px-12 py-12 rounded-lg">
+                            <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
                                 <p>algum conteúdo aqui</p>
                             </div>
                         </div>
