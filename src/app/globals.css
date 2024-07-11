@@ -293,3 +293,18 @@ body{
   font-weight: bold;
   font-family: 'Blinker', sans-serif !important;
 }
+
+.band-feedback {
+  background: linear-gradient(to bottom, rgb(159 83 255 / var(--tw-bg-opacity)), blue);
+}
+
+.text-customPurple300 {
+  margin-left: 35px;
+}
+
+.align-stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

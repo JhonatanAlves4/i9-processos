@@ -63,12 +63,12 @@ const Carousel = () => {
               <div>
                 <img src={content.imageUrl} alt={content.title} className="absolute -top-5 -right-5 h-26 w-26 object-cover mb-4 rounded-lg" />
               </div>
-              <div className='absolute left-8 top-0 h-full w-6 bg-customPurple100'></div>
+              <div className='absolute left-8 top-0 h-full w-6 band-feedback'></div>
               <div><Image src='/logo-card.svg' width={76} height={76} alt='logo' className='absolute left-1 bottom-2' /> </div>
               <div className='pl-12 px-14 text-customPurple300'>
                 <h2 className='text-[25px] font-semibold'>Feedbacks dos nossos clientes</h2>
                 <div className='w-full h-1 bg-customPurple100'></div>
-                <div className="flex mb-2 w-full ">
+                <div className="flex mb-2 w-full align-stars" >
                   {Array.from({ length: content.stars }).map((_, i) => (
                     <span key={i} className="text-yellow-500 text-4xl">★</span>
                   ))}
