@@ -8,7 +8,7 @@ export default function Footer() {
         <section id="Footer" className=" text-black ">
             <div className="bg-customBlue100 rounded-[50px] mx-10 py-8 mb-4">
                 <div className="md:px-20">
-                    <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between align-center ">
+                    <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between align-center footer-design">
                         <div className="flex flex-row justify-around order-1 md:order-3 gap-6 mt-10">
                             <div className="mb-4 md:mb-0 ">
                                 <h2 className=" mb-2 text-sm md-text-[20px] lg:text-[20px] font-semibold">Páginas</h2>

@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700;700&display=swap');
 
 
 .font-alfa {
@@ -254,7 +255,13 @@ body{
 .slick-next:before, .slick-prev:before {
   color: #3C0E80 !important;
   font-size: 30px !important;
+  content: '←' !important;
+}
 
+.slick-prev:before {
+  color: #3C0E80 !important;
+  font-size: 30px !important;
+  content: '→' !important;
 }
 
 .partners-div {
@@ -262,7 +269,14 @@ body{
   justify-content: center;
 }
 
+.slider-container {
+  height: 130px;
+}
 
+.card-size {
+  width: 10rem;
+  height: 8rem;
+}
 .text-services {
   font-size: 16px;
   line-height: 1.1rem;
@@ -274,6 +288,11 @@ body{
   }
 }
 
+.footer-design {
+  color: #3C0E80;
+  font-weight: bold;
+  font-family: 'Blinker', sans-serif !important;
+}
 
 /* Circle Chart */
 .progress-circle {
@@ -340,3 +359,17 @@ body{
 }
 
 
+.band-feedback {
+  background: linear-gradient(to bottom, rgb(159 83 255 / var(--tw-bg-opacity)), blue);
+}
+
+.text-customPurple300 {
+  margin-left: 35px;
+}
+
+.align-stars {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

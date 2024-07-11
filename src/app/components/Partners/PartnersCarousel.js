@@ -45,7 +45,7 @@ export default function PartnersCarousel(){
     };
 
     return(
-        <section className='bg-white rounded-full mb-20 px-10'>
+        <section className='bg-white rounded-full mb-20 px-10 slider-container'>
             <Slider {...settings}>
                 {cards.map(card => (
                     <div key={card.id} className=''>
