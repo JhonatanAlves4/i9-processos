@@ -275,7 +275,68 @@ body{
 }
 
 
+/* Circle Chart */
+.progress-circle {
+  transform: rotate(90deg) rotateY(190deg);
+}
 
+.progress-circle circle {
+  z-index: 99;
+  fill: none;
+  stroke: #3C0E80;
+  stroke-dasharray: 377; /* Circunferência do círculo (2 * PI * r) */
+  stroke-dashoffset: 377; /* Totalmente oculto */
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s linear;
+}
 
+.complete .progress-circle circle {
+  stroke-dashoffset: 0; /* Totalmente visível */
+}
+
+.div-chart {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 44%;
+  left: 50%;
+  width: 90px;
+  height: 90px;
+  transform: translate(-50%, -50%);
+  background-color: #808CF5;
+  border-radius: 50%;
+}
+
+.text-chart {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.font-10mil {
+  font-family: 'Alfa Slab One', sans-serif;
+}
+
+@media (max-width: 1600px) {
+  .exp-container {
+    width: 98%;
+  }
+
+  /* .font-10mil {
+    font-size: 50px;
+    left: 3rem;
+  }
+
+  .font-10mil-h2 {
+    font-size: 30px;
+    top: 7.7rem;
+    left: 4.7rem;
+  } */
+
+  .media-pedding {
+    padding-right: 1rem;
+  }
+}
 
 
