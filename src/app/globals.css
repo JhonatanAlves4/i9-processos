@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700;700&display=swap');
 
 
 .font-alfa {
@@ -285,4 +286,10 @@ body{
   .text-services {
     font-size: 18px;
   }
+}
+
+.footer-design {
+  color: #3C0E80;
+  font-weight: bold;
+  font-family: 'Blinker', sans-serif !important;
 }
