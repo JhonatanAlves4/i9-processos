@@ -1,13 +1,13 @@
 "use client";
 
 import React from "react";
-import Carousel from "./Teste";
+import Carousel from "./Carousel";
 
 const Testimonials2 = () => {
   return (
     <div
       id="Feedbacks"
-      className="min-h-[86vh] relative items-center mt-10 pb-20 h-auto w-[100vw] bg-gray-100 skew-y-3"
+      className="min-h-[800px] relative items-center mt-10 pb-20 h-auto w-[100vw] bg-gray-100 skew-y-3"
       style={{
         backgroundImage: "url('/fundo-testimonials.png')",
         backgroundPosition: "center",
