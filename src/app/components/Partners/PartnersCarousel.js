@@ -25,7 +25,8 @@ export default function PartnersCarousel(){
         cssEase: 'linear',
         rtl: true,
         draggable: true,
-        swipeToSlide: true,      
+        swipeToSlide: true,
+        autoplay: true,      
         responsive: [
             {
                 breakpoint: 1024,
