@@ -4,15 +4,15 @@ import Image from "next/image";
 
 export default function Possibilits() {
   return (
-    <section className="h-fit w-[100%] px-10 mt-14">
+    <section className="h-fit w-[100%] px-10 mt-20">
       <div className="flex flex-row h-full bg-gradient-to-t from-customBlue100 to-transparent rounded-[50px] text-customPurple300 mx-10">
-        <div className="flex flex-col w-[50%] pl-48">
-          <h1 className="font-alfa text-[50px] font-bold mb-10 mt-14 leading-tight">
+        <div className="flex flex-col w-[50%] pl-48 possibilities-padding">
+          <h1 className="text-[60px] font-bold mb-10 mt-14 leading-[3.2rem] possibilities-h1">
             Ilimitadas
             <br /> possibilidades na
             <br /> solução de problemas
           </h1>
-          <p className="w-fit text-[25px] font-semibold leading-tight mb-8">
+          <p className="w-fit text-[30px] font-bold leading-[2.3rem] mb-8 pr-20 possibilities-p">
             Na i9 TI Solutions, contamos com uma equipe excepcionalmente
             experiente e altamente capacitada, dedicada a desenvolver soluções
             sob medida para cada desafio. Utilizando as tecnologias mais
