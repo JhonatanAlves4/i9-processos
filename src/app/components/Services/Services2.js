@@ -78,7 +78,7 @@ export default function Services2() {
                     ))}
                 </ul>
             </div>
-            <div className={`content-services relative mt-1 mx-10 rounded-lg w-[70%] ${alignment === 'left' ? 'ml-10' : 'ml-auto'}`}>
+            <div className={`content-services relative mt-1 mx-10 rounded-[50px] rounded-br-none w-[70%] ${alignment === 'left' ? 'ml-10' : 'ml-auto'}`}>
                 <div className="skew-y-3 grid grid-cols-2 gap-20 px-10 pt-14 pb-6 text-white">
                     <div className='text-white'>
                         <h1 className="font-alfa text-4xl mb-10 font-semibold">{services[activeIndex].title}</h1>
@@ -102,7 +102,7 @@ export default function Services2() {
                     </div>
                 </div>
             </div>
-            <div className={`relative skew-y-3 bg-customPurple300 mx-10 rounded-lg h-24 -top-14 w-[70%] ${alignment === 'left' ? 'ml-10' : 'ml-auto'}`} style={{ zIndex: -1 }}></div>
+            <div className={`relative skew-y-3 bg-customPurple300 mx-10 rounded-b-[50px] h-24 -top-14 w-[70%] ${alignment === 'left' ? 'ml-10' : 'ml-auto'}`} style={{ zIndex: -1 }}></div>
         </section>
     );
 }
