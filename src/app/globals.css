@@ -2,71 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@700;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@700;700&display=swap");
 
 .font-alfa {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: "Alfa Slab One", sans-serif;
 }
 
 .font-alfa-regular {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: "Alfa Slab One", sans-serif;
   font-weight: 400;
 }
 
 .font-alfa-semibold {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: "Alfa Slab One", sans-serif;
   font-weight: 600;
 }
 
 .font-alfa-bold {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: "Alfa Slab One", sans-serif;
   font-weight: 900;
 }
 
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-    background-color: #9F53FF;
-    overflow-x: hidden;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: #9f53ff;
+  overflow-x: hidden;
 }
-
-
 
 /* ---------- DESKTOP NAVBAR  ---------- */
 
-
 .nav-link {
-    position: relative;
-    text-decoration: none;
-    color: #3C0E80;
-    transition: color 0.3s;
-  }
-  
-  .nav-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -4px; 
-    width: 0;
-    height: 2px;
-    background: linear-gradient(to right, #0000ff, #ff00ff); 
-    transition: width 0.5s ease-in-out;
-  }
-  
-  .nav-link:hover::after {
-    width: 100%;
-  }
-  
-  .nav-link.active::after {
-    width: 100%;
-  }
+  position: relative;
+  text-decoration: none;
+  color: #3c0e80;
+  transition: color 0.3s;
+}
 
-.Logo{
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #0000ff, #ff00ff);
+  transition: width 0.5s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-link.active::after {
+  width: 100%;
+}
+
+.Logo {
   animation: spin 1s linear infinite;
 }
 
@@ -79,19 +74,18 @@ body{
   }
 }
 
-
 /* ---------- Hero Section ---------- */
 
-.backgroundHero{
+.backgroundHero {
   border-radius: 20px;
 }
 
-.backgroundContact{
+.backgroundContact {
   border-radius: 20px;
 }
 
 .hero-background {
-  background-image: url('/fundo3.jpg');
+  background-image: url("/fundo3.jpg");
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -99,86 +93,75 @@ body{
   border-radius: 50px;
 }
 
-
 /* ---------- Hero Section / Button (Facilite seu processo) ---------- */
 
 @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
-  
-  .gradient-bg {
-    background: linear-gradient(270deg, #0000FF, #8A2BE2, #00007c);
-    background-size: 400% 400%;
-    animation: gradient 6s ease infinite;
+  50% {
+    background-position: 100% 50%;
   }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-bg {
+  background: linear-gradient(270deg, #0000ff, #8a2be2, #00007c);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
+}
 
 /* ---------- Hero Section / Button (rolar para baixo) ---------- */
 @keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .bounce {
-    animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
 }
 
-
-.clients{
-    background-color: #010139;
+.clients {
+  background-color: #010139;
 }
 
-.expirience{
-    background-color: #17006D;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+.expirience {
+  background-color: #17006d;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-
-
-.contact{
-    background-color: white;
+.contact {
+  background-color: white;
 }
 
-.contact:hover{
-    background: linear-gradient(270deg, #0000FF, #8A2BE2, #00007c);
-    background-size: 400% 400%;
-    animation: gradient 6s ease infinite;
+.contact:hover {
+  background: linear-gradient(270deg, #0000ff, #8a2be2, #00007c);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
 }
 
-
-
-
-
-
-.lineDeal{
+.lineDeal {
   border-top-right-radius: 250px;
   border-bottom-right-radius: 250px;
 }
 
-.deal{
+.deal {
   border-top-right-radius: 246px;
   border-bottom-right-radius: 246px;
 }
 
-
-
-
 .buttons {
-  background-color: #9F53FF;
+  background-color: #9f53ff;
   font-size: 15px;
 }
 
@@ -187,7 +170,7 @@ body{
   width: 50px;
   height: 60px;
   border-radius: 30px;
-  background-color: #808CF5;
+  background-color: #808cf5;
   color: #fff;
   padding: 15px;
   font-weight: 600;
@@ -196,9 +179,9 @@ body{
 .buttons li.active {
   background-color: #512885;
   color: white;
-  border-top: 4px solid #FAFAFA;
-  border-left: 4px solid #FAFAFA;
-  border-right: 4px solid #FAFAFA;
+  border-top: 4px solid #fafafa;
+  border-left: 4px solid #fafafa;
+  border-right: 4px solid #fafafa;
   border-radius: 30px 30px 0 0;
   transform: translateY(13px);
 }
@@ -211,28 +194,20 @@ body{
   color: #030022;
 }
 
-
-
-
-
-
-
-.logo{
+.logo {
   border-radius: 50px;
 }
 
-.logo:hover{
+.logo:hover {
   transform: scale(1.2);
   transition: 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-
-
-
-
-
-.card3, .card24, .card15 {
-  transition: transform 0.9s ease-in-out, z-index 0.9s ease-in-out, filter 0.9s ease-in-out;
+.card3,
+.card24,
+.card15 {
+  transition: transform 0.9s ease-in-out, z-index 0.9s ease-in-out,
+    filter 0.9s ease-in-out;
 }
 
 .card3 {
@@ -252,16 +227,17 @@ body{
   filter: blur(4px);
 }
 
-.slick-next:before, .slick-prev:before {
-  color: #3C0E80 !important;
+.slick-next:before,
+.slick-prev:before {
+  color: #3c0e80 !important;
   font-size: 30px !important;
-  content: '←' !important;
+  content: "←" !important;
 }
 
 .slick-prev:before {
-  color: #3C0E80 !important;
+  color: #3c0e80 !important;
   font-size: 30px !important;
-  content: '→' !important;
+  content: "→" !important;
 }
 
 .partners-div {
@@ -289,9 +265,25 @@ body{
 }
 
 .footer-design {
-  color: #3C0E80;
+  color: #3c0e80;
   font-weight: bold;
-  font-family: 'Blinker', sans-serif !important;
+  font-family: "Blinker", sans-serif !important;
+}
+
+/* Posibilities */
+@media (max-width: 1600px) {
+  .possibilities-padding {
+    padding-left: 3rem;
+  }
+
+  .possibilities-h1 {
+    font-size: 50px;
+  }
+
+  .possibilities-p {
+    font-size: 25px;
+    line-height: 2rem;
+  }
 }
 
 /* Circle Chart */
@@ -302,7 +294,7 @@ body{
 .progress-circle circle {
   z-index: 99;
   fill: none;
-  stroke: #3C0E80;
+  stroke: #3c0e80;
   stroke-dasharray: 377; /* Circunferência do círculo (2 * PI * r) */
   stroke-dashoffset: 377; /* Totalmente oculto */
   stroke-linecap: round;
@@ -323,7 +315,7 @@ body{
   width: 90px;
   height: 90px;
   transform: translate(-50%, -50%);
-  background-color: #808CF5;
+  background-color: #808cf5;
   border-radius: 50%;
 }
 
@@ -334,7 +326,7 @@ body{
 }
 
 .font-10mil {
-  font-family: 'Alfa Slab One', sans-serif;
+  font-family: "Alfa Slab One", sans-serif;
 }
 
 @media (max-width: 1600px) {
@@ -358,9 +350,12 @@ body{
   }
 }
 
-
 .band-feedback {
-  background: linear-gradient(to bottom, rgb(159 83 255 / var(--tw-bg-opacity)), blue);
+  background: linear-gradient(
+    to bottom,
+    rgb(159 83 255 / var(--tw-bg-opacity)),
+    blue
+  );
 }
 
 .text-customPurple300 {
