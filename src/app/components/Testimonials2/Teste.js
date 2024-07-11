@@ -12,7 +12,7 @@ const Carousel = () => {
     { zIndex: 4, width: 447, height: 476, top: 0, left: 400, scale: 1, blur: '0px', opacity: 1 },
     { zIndex: 3, width: 447, height: 476, top: 12, left: 700, scale: 0.85, blur: '1px', opacity: 1 },
     { zIndex: 2, width: 447, height: 476, top: 6, left: 900, scale: 0.7, blur: '2px', opacity: 1 },
-    { zIndex: 1, width: 447, height: 476, top: 69, left: 1100, scale: 0.5, blur: '5px', opacity: 0 },
+    { zIndex: 1, width: 447, height: 476, top: 69, left: 234, scale: 0.5, blur: '5px', opacity: 0 },
   ];
 
   const contents = [
