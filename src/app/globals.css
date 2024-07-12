@@ -24,13 +24,16 @@
   font-weight: 900;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
-  background-color: #9f53ff;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 /* ---------- DESKTOP NAVBAR  ---------- */
@@ -38,7 +41,7 @@ body {
 .nav-link {
   position: relative;
   text-decoration: none;
-  color: #3c0e80;
+  color: #000000be;
   transition: color 0.3s;
 }
 
@@ -69,6 +72,7 @@ body {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -99,9 +103,11 @@ body {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -115,10 +121,12 @@ body {
 
 /* ---------- Hero Section / Button (rolar para baixo) ---------- */
 @keyframes bounce {
+
   0%,
   100% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-10px);
   }
@@ -253,6 +261,7 @@ body {
   width: 10rem;
   height: 8rem;
 }
+
 .text-services {
   font-size: 16px;
   line-height: 1.1rem;
@@ -295,14 +304,17 @@ body {
   z-index: 99;
   fill: none;
   stroke: #3c0e80;
-  stroke-dasharray: 377; /* Circunferência do círculo (2 * PI * r) */
-  stroke-dashoffset: 377; /* Totalmente oculto */
+  stroke-dasharray: 377;
+  /* Circunferência do círculo (2 * PI * r) */
+  stroke-dashoffset: 377;
+  /* Totalmente oculto */
   stroke-linecap: round;
   transition: stroke-dashoffset 1s linear;
 }
 
 .complete .progress-circle circle {
-  stroke-dashoffset: 0; /* Totalmente visível */
+  stroke-dashoffset: 0;
+  /* Totalmente visível */
 }
 
 .div-chart {
@@ -351,11 +363,7 @@ body {
 }
 
 .band-feedback {
-  background: linear-gradient(
-    to bottom,
-    rgb(159 83 255 / var(--tw-bg-opacity)),
-    blue
-  );
+  background: linear-gradient(to bottom, #AF11EA, #0000CC);
 }
 
 .text-customPurple300 {
@@ -367,4 +375,74 @@ body {
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+
+
+/* Estilizar o contêiner que terá a barra de rolagem */
+.scrollable-container {
+  height: 100vh;
+  /* Defina a altura do contêiner para demonstrar a rolagem */
+  overflow-y: auto;
+}
+
+/* Estilizar a barra de rolagem em navegadores baseados em WebKit (Chrome, Safari) */
+.scrollable-container::-webkit-scrollbar {
+  width: 12px;
+  /* Largura da barra de rolagem */
+}
+
+.scrollable-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Cor do fundo da barra de rolagem */
+  border-radius: 10px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Cor do "polegar" da barra de rolagem */
+  border-radius: 10px;
+}
+
+.scrollable-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Cor do "polegar" quando hover */
+}
+
+/* Estilizar a barra de rolagem em navegadores baseados em Firefox */
+.scrollable-container {
+  scrollbar-width: thin;
+  /* Largura da barra de rolagem */
+  scrollbar-color: #888 #f1f1f1;
+  /* Cor do "polegar" e do fundo da barra de rolagem */
+}
+
+/* Adicionar estilos adicionais para a barra de rolagem em navegadores modernos */
+.scrollable-container {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+/* Estilizar a barra de rolagem para Internet Explorer e Edge */
+@supports (-ms-overflow-style: none) {
+  .scrollable-container {
+    -ms-overflow-style: none;
+    /* Ocultar a barra de rolagem padrão */
+  }
+
+  .scrollable-container::-ms-scrollbar {
+    width: 12px;
+  }
+
+  .scrollable-container::-ms-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .scrollable-container::-ms-scrollbar-thumb {
+    background: #888;
+  }
+
+  .scrollable-container::-ms-scrollbar-thumb:hover {
+    background: #555;
+  }
 }

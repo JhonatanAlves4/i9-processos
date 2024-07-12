@@ -195,7 +195,7 @@ const Carousel = () => {
                     className="absolute -top-5 -right-5 h-26 w-26 object-cover mb-4 rounded-lg"
                   />
                 </div>
-                <div className="absolute left-8 top-0 h-full w-6 band-feedback"></div>
+                <div className="absolute left-8 top-0 h-full w-[45px] band-feedback"></div>
                 <div>
                   <Image
                     src="/logo-card.svg"

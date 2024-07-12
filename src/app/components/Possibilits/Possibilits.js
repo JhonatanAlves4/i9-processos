@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Possibilits() {
   return (
     <section className="h-fit w-[100%] px-10 mt-20">
-      <div className="flex flex-row h-full bg-gradient-to-t from-customBlue100 to-transparent rounded-[50px] text-customPurple300 mx-10">
+      <div className="flex flex-row h-full bg-gradient-to-t from-customBlue100 to-transparent rounded-[50px] text-white mx-10">
         <div className="flex flex-col w-[50%] pl-48 possibilities-padding">
           <h1 className="text-[60px] font-bold mb-10 mt-14 leading-[3.2rem] possibilities-h1">
             Ilimitadas

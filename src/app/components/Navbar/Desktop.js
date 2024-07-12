@@ -3,75 +3,28 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Desktop() {
   const router = useRouter();
   const [activeSection, setActiveSection] = useState("");
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = document.querySelectorAll("section");
-      let currentSection = "Hero";
-
-      sections.forEach((section) => {
-        const sectionTop = section.offsetTop;
-        if (window.scrollY >= sectionTop - 100) {
-          currentSection = section.getAttribute("id");
-        }
-      });
-
-      setActiveSection(currentSection);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const smoothScrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      window.scrollTo({
-        top: element.offsetTop - 50,
-        behavior: "smooth",
-      });
-    }
-  };
-
   return (
-    <nav className="flex flex-col items-center w-[100% bg-red-600]">
-      <div className="fixed w-full top-0 z-50 h-[87px] bg-customPurple100"></div>
-      <div className="flex fixed w-[96%] top-2 z-50 h-[79px] bg-customBlue100 shadow-lg items-center rounded-full">
-        <div className="flex items-center justify-between w-full px-28 text-xl">
-          <div className={`w-[120px]`}>
-            <button
-              className={`nav-link font-semibold`}
-              onClick={() => smoothScrollToSection("Hero")}
-            >
-              Início
-            </button>
-          </div>
+    <nav className="flex flex-col items-center w-[100%]">
+      <div className="fixed w-[99.3%] left-0 top-0 z-50 h-[87px] bg-customNewBlue"></div>
+      <div className="flex fixed justify-center w-[96%] top-2 z-50 h-[79px] bg-customBlue100 shadow-lg items-center rounded-full">
+        <div className="flex items-center justify-between w-[55%] ml-14 text-xl">
+          <a href="#Hero" className={`w-fit`}>
+            <button className={`nav-link font-semibold z-50`}>Home</button>
+          </a>
 
-          <div className="w-[120px]">
-            <button
-              className={`nav-link font-semibold`}
-              onClick={() => smoothScrollToSection("About")}
-            >
-              Sobre
-            </button>
-          </div>
+          <a href="#About" className="w-fit">
+            <button className={`nav-link font-semibold`}>Sobre Nós</button>
+          </a>
 
-          <div className={`w-[120px]`}>
-            <button
-              className={`nav-link font-semibold`}
-              onClick={() => smoothScrollToSection("Services")}
-            >
-              Serviços
-            </button>
-          </div>
+          <a href="#Services" className={`w-fit`}>
+            <button className={`nav-link font-semibold`}>Serviços</button>
+          </a>
 
           <div>
             <Image
@@ -83,32 +36,17 @@ export default function Desktop() {
             />
           </div>
 
-          <div className={`w-[120px]`}>
-            <button
-              className={`nav-link font-semibold`}
-              onClick={() => smoothScrollToSection("Solutions")}
-            >
-              Experiência
-            </button>
-          </div>
+          <a href="#Solutions" className={`w-fit`}>
+            <button className={`nav-link font-semibold`}>Portfólio</button>
+          </a>
 
-          <div className="w-[120px]">
-            <button
-              className={`nav-link font-semibold`}
-              onClick={() => smoothScrollToSection("Feedbacks")}
-            >
-              Testemunhos
-            </button>
-          </div>
+          <a href="#Feedbacks" className="w-fit">
+            <button className={`nav-link font-semibold`}>Testemunhos</button>
+          </a>
 
-          <div className="w-[120px]">
-            <button
-              className={`nav-link font-semibold`}
-              onClick={() => smoothScrollToSection("Contact")}
-            >
-              Contato
-            </button>
-          </div>
+          <a href="#Contact" className="w-fit">
+            <button className={`nav-link font-semibold`}>Contato</button>
+          </a>
         </div>
       </div>
     </nav>
