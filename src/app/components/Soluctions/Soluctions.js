@@ -54,7 +54,7 @@ const ProgressCircle = (percentage) => {
           cx="67.5"
           cy="67.5"
           r="60"
-          stroke-width="15"
+          strokeWidth="15"
           className="circle"
           ref={circleRef}
         />
