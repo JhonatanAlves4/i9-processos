@@ -82,60 +82,63 @@ const Carousel = () => {
   const contents = [
     {
       id: 1,
-      stars: 4,
-      title: "ROBERTO FERREIRA",
-      description:
-        "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
-      imageUrl: "/pb.png",
+      stars: 5,
+      title: "JOÂO SILVA",
+      empresa : "TIS TECH",
+      description: "“ A Parceria com a i9 revelou-se ser uma mais valia para a nossa empresa. A equipe demonstrou um alto nível de conhecimento técnico, especialmente em áreas críticas nas quais estamos envolvidos. Isso tem sido fundamental para o sucesso dos nossos projetos.",
+      imageUrl: "/testimonial-1.png",
     },
     {
       id: 2,
-      stars: 4,
-      title: "JHONATAN FERREIRA",
+      stars: 5,
+      title: "MAURICIO SEIJI",
+      empresa : "SOFTPLAN",
       description:
-        "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
-      imageUrl: "/pb.png",
+        "“ Como cliente, posso afirmar que minha experiência com a i9 foi excepcional. A qualidade do serviço prestado foi impressionante, com soluções personalizadas que realmente atenderam às nossas necessidades. A equipe da i9 demonstrou uma flexibilidade admirável, adaptando-se rapidamente a mudanças e prazos, e a competência dos profissionais envolvidos fez toda a diferença.",
+      imageUrl: "/testimonial-2.png",
     },
     {
       id: 3,
       stars: 4,
-      title: "MULLER FERREIRA",
+      title: "MURILO AMARAL",
+      empresa : "FARMACIAS APP",
       description:
-        "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
-      imageUrl: "/pb.png",
+        "“ A competência técnica o profissionalismo a abordagem proativa e o compromisso com a qualidade foram evidentes em cada etapa do projeto.Entre os concorrentes, a i9 TI Solutions se destacou como a empresa que mais entregou e de maneira mais rápida.Agradeço especialmente pela capacidade de adaptação e resposta rápida aos desafios que surgiram.",
+      imageUrl: "/testimonial-3.png",
     },
     {
       id: 4,
       stars: 4,
-      title: "RENATO FERREIRA",
+      title: "CAMILO DOURADO",
+      empresa : "NETBUSINNES",
       description:
-        "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
+        "“ Nossa parceria vem de muitos anos. Com a i9 conseguimos superar muitos desafios, só tenho a agradecer",
       imageUrl: "/pb.png",
     },
-    {
-      id: 5,
-      stars: 4,
-      title: "RAFAELA FERREIRA",
-      description:
-        "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
-      imageUrl: "/pb.png",
-    },
-    {
-      id: 6,
-      stars: 4,
-      title: "ROBERTO FERREIRA",
-      description:
-        "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
-      imageUrl: "/pb.png",
-    },
-    {
-      id: 7,
-      stars: 4,
-      title: "ROBERTO FERREIRA",
-      description:
-        "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
-      imageUrl: "/pb.png",
-    },
+    // {
+    //   id: 5,
+    //   stars: 4,
+    //   title: "RAFAELA FERREIRA",
+    //   description:
+    //     "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
+    //   imageUrl: "/pb.png",
+    // },
+    // {
+    //   id: 6,
+    //   stars: 4,
+    //   title: "ROBERTO FERREIRA",
+    //   description:
+    //     "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
+    //   imageUrl: "/pb.png",
+    // },
+    // {
+    //   id: 7,
+    //   stars: 4,
+    //   title: "ROBERTO FERREIRA",
+    //   description:
+    //     "“ Com a integração da i9 em nossa empresa vimos a importância de ter um trabalho especializado para esta área.Fez toda a diferença!",
+    //   imageUrl: "/pb.png",
+    // },
   ];
 
   const move = (index) => {
@@ -192,6 +195,7 @@ const Carousel = () => {
                   <img
                     src={content.imageUrl}
                     alt={content.title}
+                    style={{ borderRadius: '50%', width : '120px;' }}
                     className="absolute -top-5 -right-5 h-26 w-26 object-cover mb-4 rounded-lg"
                   />
                 </div>
@@ -207,10 +211,10 @@ const Carousel = () => {
                 </div>
                 <div className="pl-12 px-14 text-customPurple300">
                   <h2 className="text-[25px] font-semibold">
-                    Feedbacks dos nossos clientes
+                    { content.empresa}
                   </h2>
                   <div className="w-full h-1 bg-customPurple100"></div>
-                  <div className="flex mb-2 w-full align-stars">
+                  {/* <div className="flex mb-2 w-full align-stars">
                     {Array.from({ length: content.stars }).map((_, i) => (
                       <span key={i} className="text-yellow-500 text-4xl">
                         ★
@@ -221,9 +225,9 @@ const Carousel = () => {
                         ★
                       </span>
                     ))}
-                  </div>
+                  </div> */}
                   <h2 className="text-[25px] font-base mb-2">
-                    {content.title}
+                    { content.title }
                   </h2>
                   <p className=" text-[18px]">{content.description}</p>
                 </div>

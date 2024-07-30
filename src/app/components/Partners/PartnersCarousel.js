@@ -9,10 +9,11 @@ import Card from './CardPartners';
 export default function PartnersCarousel(){
     const cards = [
         { id: 1,imageUrl: '/Farmacias.svg' },
-        { id: 2,imageUrl: '/totvs.svg' },
-        { id: 3,imageUrl: '/softplan.svg' },
-        { id: 4,imageUrl: '/digix.svg' },
-        { id: 5,imageUrl: '/somos.svg' },
+        { id: 2,imageUrl: '/totvs.svg'     },
+        { id: 3,imageUrl: '/softplan.svg'  },
+        { id: 4,imageUrl: '/digix.svg'     },
+        { id: 5,imageUrl: '/somos.svg'     },
+        { id: 6,imageUrl: '/tis.svg'       },
     ];
 
     // Configurações do Slider
