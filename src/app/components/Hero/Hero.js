@@ -30,21 +30,23 @@ export default function Hero() {
               focadas não apenas em tecnologia, mas principalmente na resolução
               eficaz de problemas.
             </p>
-            <button
-              className="w-[285px] text-xs sm:text-xs md:text-[25px] py-2 px-4 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-full text-white hover:bg-blue-700 transition duration-300 ease-in-out gradient-bg font-semibold"
-              onClick={() => smoothScrollToSection("Hero")}
-            >
-              ENTRE EM CONTATO
-            </button>
+            <a className="w-fit" target="_blank" href="https://wa.me/554891523013?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20a%20I9%20TI%20Solutions.">
+              <button
+                className="w-[285px] text-xs sm:text-xs md:text-[25px] py-2 px-4 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-full text-white hover:bg-blue-700 transition duration-300 ease-in-out gradient-bg font-semibold"
+                onClick={() => smoothScrollToSection("Hero")}
+              >
+                ENTRE EM CONTATO
+              </button>
+            </a>
           </div>
-            <button
-              className="absolute left-1/2 -bottom-6 w-16 h-16 rounded-full flex items-center justify-center aling-center bg-blue-800 animate-bounce text-black p-2"
-              onClick={() => smoothScrollToSection("About")}
-            >
-              <Link href="#About">
-                <ArrowDown />
-              </Link>
-            </button>
+          <button
+            className="absolute left-1/2 -bottom-6 w-16 h-16 rounded-full flex items-center justify-center aling-center bg-blue-800 animate-bounce text-black p-2"
+            onClick={() => smoothScrollToSection("About")}
+          >
+            <Link href="#About">
+              <ArrowDown />
+            </Link>
+          </button>
         </div>
       </div>
     </section>

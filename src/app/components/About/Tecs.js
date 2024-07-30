@@ -6,8 +6,7 @@ export default function Tecs() {
   return (
     <section className="w-[100%] flex flex-col justify-center items-center align-center px-10 text-center my-20">
       <h1 className="lg:text-[40px] font-bold mb-8 text-white">
-        MELHORAR E INOVAR COM AS TENDÊNCIAS <br />
-        TECNOLÓGICAS
+        ALGUMAS TECNOLOGIAS DE NOSSO DOMÍNIO
       </h1>
 
       <div className="flex justify-between w-[1400px] mt-4">

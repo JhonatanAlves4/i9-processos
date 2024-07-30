@@ -67,9 +67,9 @@ export default function Services2() {
       <div className="absolute w-100 h-60 inset-0 bg-gradient-to-b from-white to-transparent "></div>
       <div className="relative skew-y-3 text-center pb-14">
         <h1 className="font-alfa font-semibold text-customPurple300 text-[50px] ">
-          Conheça nossa suíte de soluções empresariais
+          Conheça nossos serviços e soluções empresariais
         </h1>
-        <p className="text-[30px] ">
+        <p className="text-[30px]">
           Tudo organizado para potencializar os seus resultados.
         </p>
       </div>

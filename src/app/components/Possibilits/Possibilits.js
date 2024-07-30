@@ -12,16 +12,15 @@ export default function Possibilits() {
             <br /> possibilidades na
             <br /> solução de problemas
           </h1>
-          <p className="w-fit text-[30px] font-bold leading-[2.3rem] mb-8 pr-20 possibilities-p">
-            Na i9 TI Solutions, contamos com uma equipe excepcionalmente
-            experiente e altamente capacitada, dedicada a desenvolver soluções
-            sob medida para cada desafio. Utilizando as tecnologias mais
-            avançadas e adequadas para cada projeto, nossa equipe está
-            comprometida em oferecer a melhor experiência do usuário possível.
-            Priorizamos a usabilidade, a acessibilidade e o design intuitivo em
-            todas as soluções que desenvolvemos, garantindo que nossos clientes
-            e seus usuários finais tenham uma experiência digital excepcional em
-            cada interação.
+          <p className="w-fit text-[30px] font-bold leading-[2.3rem] mb-8 pr-20 possibilities-p text-justify">
+            Na i9 TI Solutions, contamos com uma equipe experiente e altamente
+            capacitada, dedicada a desenvolver soluções sob medida para cada
+            desafio. Utilizando as tecnologias mais avançadas e adequadas para
+            cada projeto, nossa equipe está comprometida em oferecer a melhor
+            experiência do usuário possível. Priorizamos a usabilidade, a
+            acessibilidade e o design intuitivo em todas as soluções que
+            desenvolvemos, garantindo que nossos clientes e seus usuários finais
+            tenham uma experiência digital excepcional em cada interação.
           </p>
         </div>
         <div className="flex items-end w-[50%]">

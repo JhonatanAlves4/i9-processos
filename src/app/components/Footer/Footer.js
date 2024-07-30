@@ -13,8 +13,8 @@ export default function Footer() {
                             <div className="mb-4 md:mb-0 ">
                                 <h2 className=" mb-2 text-sm md-text-[20px] lg:text-[20px] font-semibold">Páginas</h2>
                                 <Link href='#' className="block text-15px mb-2 md:text-15px hover:text-pink-500">Início</Link>
-                                <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Preço</Link>
-                                <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Sobre nós</Link>
+                                <Link href='#Services' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Serviços</Link>
+                                <Link href='#About' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Sobre nós</Link>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Termos de uso</Link>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Privacidade</Link>
                             </div>
@@ -26,7 +26,7 @@ export default function Footer() {
                             <div>
                                 <h2 className="font-bold mb-2 text-sm md-text-[20px]l lg:text-[20px]">Contato</h2>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">WhatsApp</Link>
-                                <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">contato@surveypro.com.br</Link>
+                                <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">contato@i9tisolutions.com.br</Link>
                             </div>
                         </div>
                         <div className="text-[15px] md:order-2">
@@ -46,13 +46,13 @@ export default function Footer() {
                             </div>
                             <div className="flex justify-end align-center mt-10">
                                 <div className="flex space-x-4 text-customPurple300">
-                                    <Link href="/">
+                                    <Link target="_blank" href="https://wa.me/554891523013?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20a%20I9%20TI%20Solutions.">
                                         <Image src="/whats2.svg" alt="whats" width={32} height={32} />
                                     </Link>
-                                    <Link href="/">
+                                    <Link target="_blank" href="https://www.instagram.com/i9tisolutions/">
                                         <Image src="/inst.svg" alt="inst" width={32} height={32} />
                                     </Link>
-                                    <Link href="/">
+                                    <Link target="_blank" href="https://www.linkedin.com/company/i9tisolutions/">
                                         <Image src="/linkdn.svg" alt="linkdn" width={32} height={32} />
                                     </Link>
                                 </div>

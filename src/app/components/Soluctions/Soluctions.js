@@ -22,8 +22,8 @@ const ProgressCircle = (percentage) => {
           const offset = circumference - (85 / 100) * circumference;
           circle.style.strokeDashoffset = offset;
         } else {
-            circle.style.strokeDashoffset = circumference;
-          }
+          circle.style.strokeDashoffset = circumference;
+        }
       });
     };
 
@@ -78,16 +78,15 @@ export default function Soluctions() {
 
         <div className="flex flex-row">
           <div className="flex flex-col w-[50%]">
-            <div className="flex flex-col mb-10 pr-32 mt-[8rem] media-pedding">
+            <div className="flex flex-col mb-10 pr-[9rem] mt-[8rem] media-pedding">
               <h1 className="text-5xl font-bold mb-12 text-white">
-                Mais De 24 Anos De Experiência, Oferecemos Serviços De TI
+                Mais de 12 anos de experiência em projetos inovadores
               </h1>
               <p className="text-[32px] leading-8 text-white">
-                Visualize colaborativamente cadeias de suprimentos amigáveis
-                ​​ao usuário e imperativo de unidade cruzada. Fabrique recursos
-                competitivos e holísticos de forma autoritária. Restaure
-                holisticamente recursos em tempo real, enquanto redes
-                padronizadas.
+                Nos destacamos por buscar entender com profundidade, as
+                necessidades e expectativas de cada projeto, promovendo
+                constante aproximação, colaboração e engajamento de nossos times
+                com nossos clientes, promovendo a transformação digital.
               </p>
             </div>
 
@@ -140,12 +139,8 @@ export default function Soluctions() {
               height={600}
               className="bg-contain w-full"
             />
-            <h1 className="absolute top-[3rem] left-[4rem] text-[55px] text-white font-black tracking-tighter font-10mil">
-              + 10 MIL
-            </h1>
-            <h2 className="absolute top-[9.5rem] left-[6rem] text-[32px] text-center leading-7 text-white font-bold font-10mil-h2">
-              Clientes
-              <br /> satisfeitos
+            <h2 className="absolute top-[4rem] left-[4.3rem] text-[48px] text-center leading-[2.5rem] text-white font-bold font-10mil-h2">
+              Inovação <br /> + <br /> Satisfação
             </h2>
           </div>
         </div>
