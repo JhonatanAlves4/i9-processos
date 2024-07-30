@@ -10,36 +10,67 @@ export default function Services2() {
   const services = [
     {
       title: "Desenvolvimento de software",
-      description:
-        "Aqui iremos poder desenvolver algum texto sobre a plataforma, com algumas características ideias, funcionamentos e resultados ilustrativos. Aqui iremos poder desenvolver algum texto sobre a plataforma, com algumas características ideias, funcionamentos e resultados ilustrativos",
+      description: "Nossa equipe experiente e versátil acelera o desenvolvimento e a criação de produtos tecnológicos, utilizando tecnologias modernas. Também oferecemos suporte na manutenção de sistemas legados, garantindo eficiência e inovação contínua para atender às necessidades de negócios de nossos clientes.",
+      conteudo_1 : "Inovação constante",
+      conteudo_2 : "Expertise comprovada",
+      conteudo_3 : "Flexibilidade operacional",
+      conteudo_4 : "Compromisso com resultados",
     },
     {
       title: "Consultoria e gestão de projetos",
-      description: "Descrição para Consultoria e gestão de projetos",
+      description: "Transforme suas ideias em realidade com nossa consultoria especializada e gestão de projetos eficiente. Otimizamos recursos, mitigamos riscos e garantimos entrega pontual, superando expectativas e impulsionando o sucesso do seu negócio.",
+      conteudo_1 : "Metodologias Ágeis",
+      conteudo_2 : "Experiência Multissetorial",
+      conteudo_3 : "Foco em Resultados",
+      conteudo_4 : "Suporte Contínuo",
     },
     {
       title: "Outsourcing",
-      description: "Descrição para Outsourcing",
+      description: "Maximize a eficiência e reduza custos com nosso serviço de outsourcing. Disponibilizamos profissionais altamente qualificados para integrar sua equipe, garantindo expertise técnica, inovação contínua e suporte ágil, permitindo que você foque no crescimento estratégico do seu negócio.",
+      conteudo_1 : "Profissionais Especializados",
+      conteudo_2 : "Escalabilidade Rápida",
+      conteudo_3 : "Redução de Custos",
+      conteudo_4 : "Integração Fluida",
     },
     {
       title: "SurveyPro",
-      description: "Descrição para SurveyPro",
+      description: "Nossa plataforma transforma feedback em ação, aumentando significativamente a taxa de resposta e gerando insights valiosos. Facilite a coleta e análise de dados, promovendo a melhoria contínua e elevando a satisfação do cliente ao próximo nível.",
+      conteudo_1 : "Envio Omnicanal",
+      conteudo_2 : "Templates inteligentes",
+      conteudo_3 : "Design responsivo",
+      conteudo_4 : "Dashboards dinâmicos",
     },
     {
       title: "NextSuite",
-      description: "Descrição para NextSuite",
+      description: "Automatize processos burocráticos e maximize lucros com nosso sistema de gestão empresarial integrado. Oferecemos todos os módulos necessários para otimizar operações, aumentar eficiência e impulsionar o crescimento do seu negócio.",
+      conteudo_1 : "Automação Total",
+      conteudo_2 : "Integração",
+      conteudo_3 : "Flexibilidade",
+      conteudo_4 : "Dashboards inteligentes",
     },
     {
       title: "Rifa Fácil",
-      description: "Descrição para Rifa Fácil",
+      description: "Simplifique e potencialize suas campanhas com nossa plataforma completa. Crie, publique e compartilhe sorteios e rifas facilmente, utilizando recursos avançados de ranking, histórico e personalização para engajar seu público e maximizar resultados.",
+      conteudo_1 : "Facilidade de uso",
+      conteudo_2 : "Recursos avançados",
+      conteudo_3 : "Engajamento otimizado",
+      conteudo_4 : "Dashboards personalizados",
     },
     {
       title: "I9 Car",
-      description: "Descrição para I9 Car",
+      description: "Transforme a gestão de veículos com nossa plataforma completa. Facilite vendas e revendas, controle estoques, automatize processos e ofereça uma experiência de compra e venda ágil e eficiente, maximizando lucros e satisfazendo clientes.",
+      conteudo_1 : "Integração Multicanal",
+      conteudo_2 : "Gestão de Leads Eficiente",
+      conteudo_3 : "Experiência do Cliente Personalizada",
+      conteudo_4 : "Gestão da avaliação",
     },
     {
-      title: "RP",
-      description: "Descrição para RP",
+      title: "Avaliação de desempenho",
+      description: "Potencialize o talento da sua equipe com nossa avaliação de desempenho personalizada. Utilizamos metodologias avançadas para medir e melhorar o desempenho individual e coletivo, garantindo alinhamento estratégico e crescimento contínuo.",
+      conteudo_1 : "Metodologias Avançadas",
+      conteudo_2 : "Feedback Construtivo",
+      conteudo_3 : "Alinhamento Estratégico",
+      conteudo_4 : "Desenvolvimento Profissional",
     },
   ];
 
@@ -83,7 +114,7 @@ export default function Services2() {
             "NextSuite",
             "Rifa Fácil",
             "I9 Car",
-            "RP",
+            "Avaliação de Desempenho",
           ].map((text, index) => (
             <li
               key={index}
@@ -119,16 +150,16 @@ export default function Services2() {
           <div>
             <div className="grid grid-cols-2 gap-8 mb-4 z-1">
               <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
-                <p>algum conteúdo aqui</p>
+                <p>{services[activeIndex].conteudo_1}</p>
               </div>
               <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
-                <p>algum conteúdo aqui</p>
+                <p>{services[activeIndex].conteudo_2}</p>
               </div>
               <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
-                <p>algum conteúdo aqui</p>
+                <p>{services[activeIndex].conteudo_3}</p>
               </div>
               <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
-                <p>algum conteúdo aqui</p>
+                <p>{services[activeIndex].conteudo_4}</p>
               </div>
             </div>
           </div>
