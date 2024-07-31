@@ -149,16 +149,16 @@ export default function Services2() {
           </div>
           <div>
             <div className="grid grid-cols-2 gap-8 mb-4 z-1">
-              <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
+              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
                 <p>{services[activeIndex].conteudo_1}</p>
               </div>
-              <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
+              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
                 <p>{services[activeIndex].conteudo_2}</p>
               </div>
-              <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
+              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
                 <p>{services[activeIndex].conteudo_3}</p>
               </div>
-              <div className="cards bg-gray-100 px-12 py-12 rounded-3xl">
+              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
                 <p>{services[activeIndex].conteudo_4}</p>
               </div>
             </div>

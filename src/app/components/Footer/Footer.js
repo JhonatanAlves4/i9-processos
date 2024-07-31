@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function Footer() {
     return (
         <section id="Footer" className=" text-black ">
-            <div className="bg-customBlue100 rounded-[50px] mx-10 py-8 mb-4">
+            <div className="bg-customBlue100 rounded-[50px] mx-10 py-8 mb-4 pr-[1rem]">
                 <div className="md:px-20">
                     <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between align-center footer-design">
                         <div className="flex flex-row justify-around order-1 md:order-3 gap-6 mt-10">
@@ -18,12 +18,12 @@ export default function Footer() {
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Termos de uso</Link>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Privacidade</Link>
                             </div>
-                            <div className="mb-4 md:mb-0">
+                            <div className="mb-4 md:mb-0 hidden">
                                 <h2 className="font-bold mb-2 text-sm md-text-[20px] lg:text-[20px]">Ajuda</h2>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Central de Ajuda</Link>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">Dúvidas frequentes</Link>
                             </div>
-                            <div>
+                            <div className="hidden">
                                 <h2 className="font-bold mb-2 text-sm md-text-[20px]l lg:text-[20px]">Contato</h2>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">WhatsApp</Link>
                                 <Link href='#' className="block text-15px mb-2  md:text-15px hover:text-pink-500">contato@i9tisolutions.com.br</Link>
@@ -44,8 +44,8 @@ export default function Footer() {
                                     <p className="ml-2">+55 (48) 9152-3013</p>
                                 </div>
                             </div>
-                            <div className="flex justify-end align-center mt-10">
-                                <div className="flex space-x-4 text-customPurple300">
+                            <div className="flex align-center mt-10">
+                                <div className="flex gap-4 justify-start margin-direita text-customPurple300">
                                     <Link target="_blank" href="https://wa.me/554891523013?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20a%20I9%20TI%20Solutions.">
                                         <Image src="/whats2.svg" alt="whats" width={32} height={32} />
                                     </Link>
@@ -60,9 +60,7 @@ export default function Footer() {
                         </div>
                         <div className="flex flex-col items-center space-y-4 w-full md:w-1/4 order-2 md:order-1">
                             <Image src="/Logoi9all.png" alt="logo" width={186} height={186} />
-                            <p className="text-center text-sm md:text-[15px]">
-                                Quer conversar sobre seu projeto?
-                            </p>
+                            
                             <p className="text-center text-sm md:text-15px">
                                 Soluções inteligentes para empresas mais eficientes.
                             </p>

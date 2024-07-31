@@ -199,6 +199,9 @@ body {
 }
 
 .content-services .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #030022;
 }
 
@@ -445,4 +448,8 @@ body {
   .scrollable-container::-ms-scrollbar-thumb:hover {
     background: #555;
   }
+}
+
+.margin-direita {
+  margin: 0 0 0 0 !important;
 }
