@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
+.alfa {
+  font-family: "Alfa Slab One";
+}
+
+.blinker {
+  font-family: "Blinker", sans-serif;
+}
+
+@media screen and (width < 1024px) {
+  .margin {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (width < 768px) {
+  .blinker {
+    width: 70vw;
+    line-height: 2rem;
+  }
+
+  .alfa {
+    margin-top: 4rem;
+    line-height: 2rem;
+  }
+
+  .margin {
+    margin-top: -7rem;
+  }
+}
+
+@media screen and (width < 600px) {
+  .margin {
+    margin-left: 20px;
+  }
+
+  .alfa {
+    margin-top: 4rem;
+  }
+
+  #Hero {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media screen and (height < 880px) {
+  #Hero {
+    height: 110vh;
+  }
+
+  .alfa {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (height < 710px) {
+  #Hero {
+    height: 120vh;
+  }
+}

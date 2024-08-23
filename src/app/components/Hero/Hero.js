@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import ArrowDown from "../icons/arrow-bottom";
+import "./Hero.css";
 
 export default function Hero() {
   const smoothScrollToSection = (id) => {
@@ -15,24 +16,26 @@ export default function Hero() {
   };
 
   return (
-    <section id="Hero" className="pt-28 h-[90vh] w-[100%] px-11">
-      <div className={`hero-background`}>
-        <div className="h-full w-full flex flex-col justify-center items-start relative">
+    <section id="Hero" className="flex items-center pt-28 h-[90vh] min-h-[680px] w-[100%] px-11">
+      <div className={`hero-background irru`}>
+        <div className="h-full w-full flex flex-col justify-center items-start relative ">
           <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-customBlue to-transparent opacity-100 rounded-[50px]"></div>
-          <div className="flex flex-col z-10 ml-[110px] mr-8 w-[800px]">
-            <h1 className="font-alfa-bold mb-8 text-3xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-[4.125rem] w-full text-white xl:leading-tight">
-              Soluções inteligentes
-              <br /> para empresas
-              <br /> mais eficientes
+          <div className="flex flex-col z-10 margin ml-[157px] mr-8 w-[562px] h-[515px]">
+            <h1 className="alfa mb-[35px] text-[30px] lg:text-[50px] md:text-[40px] w-full text-white leading-[58px] tracking-tight">
+              Soluções inteligentes <br /> para empresas <br /> mais eficientes.
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:[30px] text-white pb-10 w-full sm:w-[80%] md:w-[60%] lg:w-[40%] lg:leading-snug">
+            <p className="blinker text-[28px] lg:text-[30px] text-white w-[527px] h-fit mb-[52px] leading-[50px]">
               Estamos comprometidos em desenvolver soluções digitais sob medida,
               focadas não apenas em tecnologia, mas principalmente na resolução
               eficaz de problemas.
             </p>
-            <a className="w-fit" target="_blank" href="https://wa.me/554891523013?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20a%20I9%20TI%20Solutions.">
+            <a
+              className="w-fit"
+              target="_blank"
+              href="https://wa.me/554891523013?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20a%20I9%20TI%20Solutions."
+            >
               <button
-                className="w-[285px] text-xs sm:text-xs md:text-[25px] py-2 px-4 sm:py-3 sm:px-7 md:py-4 md:px-8 rounded-full text-white hover:bg-blue-700 transition duration-300 ease-in-out gradient-bg font-semibold"
+                className="w-[285px] text-[20px] py-4 px-8 rounded-full text-white hover:bg-blue-700 transition duration-300 ease-in-out gradient-bg font-semibold"
                 onClick={() => smoothScrollToSection("Hero")}
               >
                 ENTRE EM CONTATO

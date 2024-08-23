@@ -5,6 +5,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Blinker:wght@700;700&display=swap");
 
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 .font-alfa {
   font-family: "Alfa Slab One", sans-serif;
 }
@@ -22,18 +34,6 @@
 .font-alfa-bold {
   font-family: "Alfa Slab One", sans-serif;
   font-weight: 900;
-}
-
-* {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 /* ---------- DESKTOP NAVBAR  ---------- */

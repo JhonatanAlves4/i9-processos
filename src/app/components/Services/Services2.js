@@ -123,7 +123,7 @@ export default function Services2() {
                 activeIndex === index ? "active" : ""
               }`}
             >
-              <button className="text-center text-white text-services">
+              <button className="text-center text-white font-thin text-services">
                 {text.split(" ").map((line, i) => (
                   <React.Fragment key={i}>
                     {line}

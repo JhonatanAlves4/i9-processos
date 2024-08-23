@@ -1,0 +1,21 @@
+@media screen and (width < 1024px) {
+  .flexDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lineDeal2 {
+    width: 50%;
+  }
+
+  .deal {
+    width: 100%;
+  }
+}
+
+@media screen and (width < 600px) {
+  .lineDeal2 {
+    left: -2rem;
+    width: 80%;
+  }
+}
