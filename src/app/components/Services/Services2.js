@@ -10,67 +10,75 @@ export default function Services2() {
   const services = [
     {
       title: "Desenvolvimento de software",
-      description: "Nossa equipe experiente e versátil acelera o desenvolvimento e a criação de produtos tecnológicos, utilizando tecnologias modernas. Também oferecemos suporte na manutenção de sistemas legados, garantindo eficiência e inovação contínua para atender às necessidades de negócios de nossos clientes.",
-      conteudo_1 : "Inovação constante",
-      conteudo_2 : "Expertise comprovada",
-      conteudo_3 : "Flexibilidade operacional",
-      conteudo_4 : "Compromisso com resultados",
+      description:
+        "Nossa equipe experiente e versátil acelera o desenvolvimento e a criação de produtos tecnológicos, utilizando tecnologias modernas. Também oferecemos suporte na manutenção de sistemas legados, garantindo eficiência e inovação contínua para atender às necessidades de negócios de nossos clientes.",
+      conteudo_1: "Inovação constante",
+      conteudo_2: "Expertise comprovada",
+      conteudo_3: "Flexibilidade operacional",
+      conteudo_4: "Compromisso com resultados",
     },
     {
       title: "Consultoria e gestão de projetos",
-      description: "Transforme suas ideias em realidade com nossa consultoria especializada e gestão de projetos eficiente. Otimizamos recursos, mitigamos riscos e garantimos entrega pontual, superando expectativas e impulsionando o sucesso do seu negócio.",
-      conteudo_1 : "Metodologias Ágeis",
-      conteudo_2 : "Experiência Multissetorial",
-      conteudo_3 : "Foco em Resultados",
-      conteudo_4 : "Suporte Contínuo",
+      description:
+        "Transforme suas ideias em realidade com nossa consultoria especializada e gestão de projetos eficiente. Otimizamos recursos, mitigamos riscos e garantimos entrega pontual, superando expectativas e impulsionando o sucesso do seu negócio.",
+      conteudo_1: "Metodologias Ágeis",
+      conteudo_2: "Experiência Multissetorial",
+      conteudo_3: "Foco em Resultados",
+      conteudo_4: "Suporte Contínuo",
     },
     {
       title: "Outsourcing",
-      description: "Maximize a eficiência e reduza custos com nosso serviço de outsourcing. Disponibilizamos profissionais altamente qualificados para integrar sua equipe, garantindo expertise técnica, inovação contínua e suporte ágil, permitindo que você foque no crescimento estratégico do seu negócio.",
-      conteudo_1 : "Profissionais Especializados",
-      conteudo_2 : "Escalabilidade Rápida",
-      conteudo_3 : "Redução de Custos",
-      conteudo_4 : "Integração Fluida",
+      description:
+        "Maximize a eficiência e reduza custos com nosso serviço de outsourcing. Disponibilizamos profissionais altamente qualificados para integrar sua equipe, garantindo expertise técnica, inovação contínua e suporte ágil, permitindo que você foque no crescimento estratégico do seu negócio.",
+      conteudo_1: "Profissionais Especializados",
+      conteudo_2: "Escalabilidade Rápida",
+      conteudo_3: "Redução de Custos",
+      conteudo_4: "Integração Fluida",
     },
     {
       title: "SurveyPro",
-      description: "Nossa plataforma transforma feedback em ação, aumentando significativamente a taxa de resposta e gerando insights valiosos. Facilite a coleta e análise de dados, promovendo a melhoria contínua e elevando a satisfação do cliente ao próximo nível.",
-      conteudo_1 : "Envio Omnicanal",
-      conteudo_2 : "Templates inteligentes",
-      conteudo_3 : "Design responsivo",
-      conteudo_4 : "Dashboards dinâmicos",
+      description:
+        "Nossa plataforma transforma feedback em ação, aumentando significativamente a taxa de resposta e gerando insights valiosos. Facilite a coleta e análise de dados, promovendo a melhoria contínua e elevando a satisfação do cliente ao próximo nível.",
+      conteudo_1: "Envio Omnicanal",
+      conteudo_2: "Templates inteligentes",
+      conteudo_3: "Design responsivo",
+      conteudo_4: "Dashboards dinâmicos",
     },
     {
       title: "NextSuite",
-      description: "Automatize processos burocráticos e maximize lucros com nosso sistema de gestão empresarial integrado. Oferecemos todos os módulos necessários para otimizar operações, aumentar eficiência e impulsionar o crescimento do seu negócio.",
-      conteudo_1 : "Automação Total",
-      conteudo_2 : "Integração",
-      conteudo_3 : "Flexibilidade",
-      conteudo_4 : "Dashboards inteligentes",
+      description:
+        "Automatize processos burocráticos e maximize lucros com nosso sistema de gestão empresarial integrado. Oferecemos todos os módulos necessários para otimizar operações, aumentar eficiência e impulsionar o crescimento do seu negócio.",
+      conteudo_1: "Automação Total",
+      conteudo_2: "Integração",
+      conteudo_3: "Flexibilidade",
+      conteudo_4: "Dashboards inteligentes",
     },
     {
       title: "Rifa Fácil",
-      description: "Simplifique e potencialize suas campanhas com nossa plataforma completa. Crie, publique e compartilhe sorteios e rifas facilmente, utilizando recursos avançados de ranking, histórico e personalização para engajar seu público e maximizar resultados.",
-      conteudo_1 : "Facilidade de uso",
-      conteudo_2 : "Recursos avançados",
-      conteudo_3 : "Engajamento otimizado",
-      conteudo_4 : "Dashboards personalizados",
+      description:
+        "Simplifique e potencialize suas campanhas com nossa plataforma completa. Crie, publique e compartilhe sorteios e rifas facilmente, utilizando recursos avançados de ranking, histórico e personalização para engajar seu público e maximizar resultados.",
+      conteudo_1: "Facilidade de uso",
+      conteudo_2: "Recursos avançados",
+      conteudo_3: "Engajamento otimizado",
+      conteudo_4: "Dashboards personalizados",
     },
     {
       title: "I9 Car",
-      description: "Transforme a gestão de veículos com nossa plataforma completa. Facilite vendas e revendas, controle estoques, automatize processos e ofereça uma experiência de compra e venda ágil e eficiente, maximizando lucros e satisfazendo clientes.",
-      conteudo_1 : "Integração Multicanal",
-      conteudo_2 : "Gestão de Leads Eficiente",
-      conteudo_3 : "Experiência do Cliente Personalizada",
-      conteudo_4 : "Gestão da avaliação",
+      description:
+        "Transforme a gestão de veículos com nossa plataforma completa. Facilite vendas e revendas, controle estoques, automatize processos e ofereça uma experiência de compra e venda ágil e eficiente, maximizando lucros e satisfazendo clientes.",
+      conteudo_1: "Integração Multicanal",
+      conteudo_2: "Gestão de Leads Eficiente",
+      conteudo_3: "Experiência do Cliente Personalizada",
+      conteudo_4: "Gestão da avaliação",
     },
     {
       title: "Avaliação de desempenho",
-      description: "Potencialize o talento da sua equipe com nossa avaliação de desempenho personalizada. Utilizamos metodologias avançadas para medir e melhorar o desempenho individual e coletivo, garantindo alinhamento estratégico e crescimento contínuo.",
-      conteudo_1 : "Metodologias Avançadas",
-      conteudo_2 : "Feedback Construtivo",
-      conteudo_3 : "Alinhamento Estratégico",
-      conteudo_4 : "Desenvolvimento Profissional",
+      description:
+        "Potencialize o talento da sua equipe com nossa avaliação de desempenho personalizada. Utilizamos metodologias avançadas para medir e melhorar o desempenho individual e coletivo, garantindo alinhamento estratégico e crescimento contínuo.",
+      conteudo_1: "Metodologias Avançadas",
+      conteudo_2: "Feedback Construtivo",
+      conteudo_3: "Alinhamento Estratégico",
+      conteudo_4: "Desenvolvimento Profissional",
     },
   ];
 
@@ -98,7 +106,7 @@ export default function Services2() {
       <div className="absolute w-100 h-60 inset-0 bg-gradient-to-b from-white to-transparent "></div>
       <div className="relative skew-y-3 text-center pb-14">
         <h1 className="font-alfa font-semibold text-customPurple300 text-[50px] ">
-          Conheça nossos serviços e soluções empresariais
+          Conheça nossa suíte de soluções empresariais
         </h1>
         <p className="text-[30px]">
           Tudo organizado para potencializar os seus resultados.
@@ -119,11 +127,11 @@ export default function Services2() {
             <li
               key={index}
               onClick={() => handleButtonClick(index)}
-              className={`font-alfa flex-1 cursor-pointer hover:bg-customPurple300 ease-out duration-500 flex items-center justify-center px-2 py-2 mx-2 rounded-lg text-lg font-medium ${
+              className={`flex-1 cursor-pointer hover:bg-customPurple300 ease-out duration-500 flex items-center justify-center px-2 py-2 mx-2 rounded-lg font-medium ${
                 activeIndex === index ? "active" : ""
               }`}
             >
-              <button className="text-center text-white font-thin text-services">
+              <button className="text-center text-white text-[18px] font-medium leading-4">
                 {text.split(" ").map((line, i) => (
                   <React.Fragment key={i}>
                     {line}

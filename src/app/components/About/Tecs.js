@@ -19,7 +19,7 @@ export default function Tecs() {
             alt="tec1"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 mt-10 lg:mt-24 relative group cursor-pointer">
@@ -31,7 +31,7 @@ export default function Tecs() {
             alt="tec2"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 relative group cursor-pointer">
@@ -43,7 +43,7 @@ export default function Tecs() {
             alt="tec3"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 mt-10 lg:mt-24 relative group cursor-pointer">
@@ -55,7 +55,7 @@ export default function Tecs() {
             alt="tec4"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 relative group cursor-pointer">
@@ -67,7 +67,7 @@ export default function Tecs() {
             alt="tec5"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 mt-10 lg:mt-24 relative group cursor-pointer">
@@ -79,7 +79,7 @@ export default function Tecs() {
             alt="tec6"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 relative group cursor-pointer">
@@ -91,7 +91,7 @@ export default function Tecs() {
             alt="tec7"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 mt-10 lg:mt-24 relative group cursor-pointer">
@@ -103,7 +103,7 @@ export default function Tecs() {
             alt="tec8"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
 
         <div className="w-32 h-32 relative group cursor-pointer">
@@ -115,7 +115,7 @@ export default function Tecs() {
             alt="tec7"
             className="mx-auto transition-transform transform group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity rounded-full"></div>
+          <div className="absolute inset-0 bg-black opacity-0 lg:group-hover:opacity-20 transition-opacity rounded-full"></div>
         </div>
       </div>
     </section>
