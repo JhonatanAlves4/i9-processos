@@ -340,6 +340,26 @@ body {
   color: white;
 }
 
+.div-chart-responsive {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 68px;
+  left: 68px;
+  width: 90px;
+  height: 90px;
+  transform: translate(-50%, -50%);
+  background-color: #808cf5;
+  border-radius: 50%;
+}
+
+.text-chart-responsive {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
 .font-10mil {
   font-family: "Alfa Slab One", sans-serif;
 }

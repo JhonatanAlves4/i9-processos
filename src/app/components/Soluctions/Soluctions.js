@@ -71,18 +71,18 @@ export default function Soluctions() {
       className="flex justify-center h-[auto] w-[100%] py-20"
     >
       <div className="w-[80%] px-12 exp-container">
-        <h1 className="text-5xl font-semibold mb-20 text-center mt-8 text-white">
+        <h1 className="font-alfa text-[25px] md:text-[30px] lg:text-[35px] font-normal mb-20 text-center mt-8 text-white">
           Nos relacionamos com o ecossistema da sua <br />
           empresa para inovar e atingir resultados extraordinários
         </h1>
 
-        <div className="flex flex-row">
-          <div className="flex flex-col w-[50%]">
-            <div className="flex flex-col mb-10 pr-[9rem] mt-[8rem] media-pedding">
-              <h1 className="text-5xl font-bold mb-12 text-white">
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex flex-col w-full lg:w-[50%]">
+            <div className="flex flex-col mb-10 lg:pr-[8rem] lg:mt-[8rem] lg:media-pedding">
+              <h1 className="font-alfa text-[25px] md:text-[30px] lg:text-[35px] font-normal mb-12 text-white">
                 Mais de 12 anos de experiência em projetos inovadores
               </h1>
-              <p className="text-[32px] leading-8 text-white">
+              <p className="text-[24px] md:text-[28px] lg:text-[32px] leading-8 text-white">
                 Nos destacamos por buscar entender com profundidade, as
                 necessidades e expectativas de cada projeto, promovendo
                 constante aproximação, colaboração e engajamento de nossos times
@@ -90,7 +90,7 @@ export default function Soluctions() {
               </p>
             </div>
 
-            <div className="flex flex-row">
+            <div className="hidden md:flex lg:flex flex-row">
               <div className="flex flex-row">
                 <div className="relative">
                   <ProgressCircle percentage={percentage} />
@@ -129,9 +129,55 @@ export default function Soluctions() {
                 </div>
               </div>
             </div>
+
+            <div className="flex md:hidden lg:hidden flex-row">
+              <div className="flex flex-col w-full">
+                <div className="flex flex-col">
+                  <div className="relative">
+                    <ProgressCircle percentage={percentage} />
+                    <div className="div-chart-responsive">
+                      <h1 className="text-chart-responsive">{percentage}%</h1>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col h-fit w-[240px]">
+                    <h2 className="text-[29px] leading-7 text-white font-bold mt-4">
+                      Crescimento
+                      <br /> empresarial
+                    </h2>
+                    <p className="text-white text-[18px] mt-4">
+                      Transite ideias de primeira linha com eficiência antes do
+                      mercado
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex justify-end mt-10">
+                  <div className="flex flex-col w-fit">
+                    <div className="relative">
+                      <ProgressCircle percentage={percentage} />
+                      <div className="div-chart-responsive">
+                        <h1 className="text-chart-responsive">{percentage}%</h1>
+                      </div>
+                    </div>
+
+                    <div className="flex flex-col h-fit w-[240px]">
+                      <h2 className="text-[29px] leading-7 text-white font-bold mt-4">
+                        Crescimento
+                        <br /> empresarial
+                      </h2>
+                      <p className="text-white text-[18px] mt-4">
+                        Transite ideias de primeira linha com eficiência antes
+                        do mercado
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="relative flex justify-center items-start min-w-[800px]">
+          <div className="relative hidden lg:flex justify-center items-start min-w-[800px]">
             <Image
               src="/Frame.svg"
               alt="fundo"
