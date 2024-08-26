@@ -216,7 +216,10 @@ const Carousel = () => {
     // },
   ];
 
-  const screenWidth = window.innerWidth;
+  let screenWidth;
+  if (typeof window !== "undefined") {
+    screenWidth = window.innerWidth;
+  }
 
   const move = (index) => {
     const lis = slideRef.current.children;
