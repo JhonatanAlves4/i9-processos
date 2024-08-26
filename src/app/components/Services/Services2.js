@@ -149,25 +149,25 @@ export default function Services2() {
         }`}
       >
         <div className="skew-y-3 grid grid-cols-2 gap-20 px-10 pt-14 pb-6 text-white">
-          <div className="text-white">
-            <h1 className="font-alfa text-4xl mb-10 font-semibold">
+          <div className="flex flex-col justify-center text-white">
+            <h1 className="font-alfa text-4xl mb-10 font-normal">
               {services[activeIndex].title}
             </h1>
             <p className="text-xl">{services[activeIndex].description}</p>
           </div>
           <div>
             <div className="grid grid-cols-2 gap-8 mb-4 z-1">
-              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
-                <p>{services[activeIndex].conteudo_1}</p>
+              <div className="cards bg-gray-100 w-full max-h-[144px] text-center font-bold px-12 py-12 rounded-3xl">
+                <p className="text-[25px]">{services[activeIndex].conteudo_1}</p>
               </div>
-              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
-                <p>{services[activeIndex].conteudo_2}</p>
+              <div className="cards bg-gray-100 w-full max-h-[144px] text-center font-bold px-12 py-12 rounded-3xl">
+                <p className="text-[25px]">{services[activeIndex].conteudo_2}</p>
               </div>
-              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
-                <p>{services[activeIndex].conteudo_3}</p>
+              <div className="cards bg-gray-100 w-full max-h-[144px] text-center font-bold px-12 py-12 rounded-3xl">
+                <p className="text-[25px]" >{services[activeIndex].conteudo_3}</p>
               </div>
-              <div className="cards bg-gray-100 text-center px-12 py-12 rounded-3xl">
-                <p>{services[activeIndex].conteudo_4}</p>
+              <div className="cards bg-gray-100 w-full max-h-[144px] text-center font-bold px-12 py-12 rounded-3xl">
+                <p className="text-[25px]" >{services[activeIndex].conteudo_4}</p>
               </div>
             </div>
           </div>

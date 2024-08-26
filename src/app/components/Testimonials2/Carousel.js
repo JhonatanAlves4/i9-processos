@@ -6,6 +6,7 @@ import Image from "next/image";
 const Carousel = () => {
   const slideRef = useRef(null);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
   const states = [
     {
       zIndex: 1,
@@ -79,20 +80,94 @@ const Carousel = () => {
     },
   ];
 
+  const statesResponsive = [
+    {
+      zIndex: 1,
+      width: 320,
+      height: 476,
+      top: 69,
+      left: 234,
+      scale: 0.5,
+      blur: "6px",
+      opacity: 0,
+    },
+    {
+      zIndex: 2,
+      width: 320,
+      height: 476,
+      top: 6,
+      left: -100,
+      scale: 0.7,
+      blur: "2px",
+      opacity: 1,
+    },
+    {
+      zIndex: 3,
+      width: 320,
+      height: 476,
+      top: 12,
+      left: 100,
+      scale: 0.85,
+      blur: "1px",
+      opacity: 1,
+    },
+    {
+      zIndex: 4,
+      width: 320,
+      height: 476,
+      top: 0,
+      left: 400,
+      scale: 1,
+      blur: "0px",
+      opacity: 1,
+    },
+    {
+      zIndex: 3,
+      width: 320,
+      height: 476,
+      top: 12,
+      left: 700,
+      scale: 0.85,
+      blur: "1px",
+      opacity: 1,
+    },
+    {
+      zIndex: 2,
+      width: 320,
+      height: 476,
+      top: 6,
+      left: 900,
+      scale: 0.7,
+      blur: "2px",
+      opacity: 1,
+    },
+    {
+      zIndex: 1,
+      width: 320,
+      height: 476,
+      top: 69,
+      left: 234,
+      scale: 0.5,
+      blur: "5px",
+      opacity: 0,
+    },
+  ];
+
   const contents = [
     {
       id: 1,
       stars: 5,
       title: "JOÂO SILVA",
-      empresa : "TIS TECH",
-      description: "“ A Parceria com a i9 revelou-se ser uma mais valia para a nossa empresa. A equipe demonstrou um alto nível de conhecimento técnico, especialmente em áreas críticas nas quais estamos envolvidos. Isso tem sido fundamental para o sucesso dos nossos projetos.",
+      empresa: "TIS TECH",
+      description:
+        "“ A Parceria com a i9 revelou-se ser uma mais valia para a nossa empresa. A equipe demonstrou um alto nível de conhecimento técnico, especialmente em áreas críticas nas quais estamos envolvidos. Isso tem sido fundamental para o sucesso dos nossos projetos.",
       imageUrl: "/testimonial-1.png",
     },
     {
       id: 2,
       stars: 5,
       title: "MAURICIO SEIJI",
-      empresa : "SOFTPLAN",
+      empresa: "SOFTPLAN",
       description:
         "“ Como cliente, posso afirmar que minha experiência com a i9 foi excepcional. A qualidade do serviço prestado foi impressionante, com soluções personalizadas que realmente atenderam às nossas necessidades. A equipe da i9 demonstrou uma flexibilidade admirável, adaptando-se rapidamente a mudanças e prazos, e a competência dos profissionais envolvidos fez toda a diferença.",
       imageUrl: "/testimonial-2.png",
@@ -101,7 +176,7 @@ const Carousel = () => {
       id: 3,
       stars: 4,
       title: "MURILO AMARAL",
-      empresa : "FARMACIAS APP",
+      empresa: "FARMACIAS APP",
       description:
         "“ A competência técnica o profissionalismo a abordagem proativa e o compromisso com a qualidade foram evidentes em cada etapa do projeto.Entre os concorrentes, a i9 TI Solutions se destacou como a empresa que mais entregou e de maneira mais rápida.Agradeço especialmente pela capacidade de adaptação e resposta rápida aos desafios que surgiram.",
       imageUrl: "/testimonial-3.png",
@@ -110,7 +185,7 @@ const Carousel = () => {
       id: 4,
       stars: 4,
       title: "CAMILO DOURADO",
-      empresa : "NETBUSINNES",
+      empresa: "NETBUSINNES",
       description:
         "“ Nossa parceria vem de muitos anos. Com a i9 conseguimos superar muitos desafios, só tenho a agradecer",
       imageUrl: "/pb.png",
@@ -141,18 +216,32 @@ const Carousel = () => {
     // },
   ];
 
+  const screenWidth = window.innerWidth;
+
   const move = (index) => {
     const lis = slideRef.current.children;
     Array.from(lis).forEach((li, i) => {
-      const state = states[(i + index) % states.length];
-      li.style.zIndex = state.zIndex;
-      li.style.width = `${state.width}px`;
-      li.style.height = `${state.height}px`;
-      li.style.top = `${state.top}px`;
-      li.style.left = `${state.left}px`;
-      li.style.transform = `scale(${state.scale})`;
-      li.style.filter = `blur(${state.blur})`;
-      li.style.opacity = state.opacity;
+      if (screenWidth >= 550) {
+        const state = states[(i + index) % states.length];
+        li.style.zIndex = state.zIndex;
+        li.style.width = `${state.width}px`;
+        li.style.height = `${state.height}px`;
+        li.style.top = `${state.top}px`;
+        li.style.left = `${state.left}px`;
+        li.style.transform = `scale(${state.scale})`;
+        li.style.filter = `blur(${state.blur})`;
+        li.style.opacity = state.opacity;
+      } else {
+        const state = statesResponsive[(i + index) % states.length];
+        li.style.zIndex = state.zIndex;
+        li.style.width = `${state.width}px`;
+        li.style.height = `${state.height}px`;
+        li.style.top = `${state.top}px`;
+        li.style.left = `${state.left}px`;
+        li.style.transform = `scale(${state.scale})`;
+        li.style.filter = `blur(${state.blur})`;
+        li.style.opacity = state.opacity;
+      }
     });
   };
 
@@ -169,10 +258,21 @@ const Carousel = () => {
     move(index);
   };
 
+  const startCarousel = () => {
+    setIsPaused(false);
+  };
+
+  const stopCarousel = () => {
+    setIsPaused(true);
+  };
+
   useEffect(() => {
-    const interval = setInterval(next, 3000);
-    return () => clearInterval(interval);
-  }, []);
+    if (!isPaused) {
+      const interval = setInterval(next, 4000);
+      return () => clearInterval(interval);
+    }
+    return;
+  }, [isPaused]);
 
   useEffect(() => {
     move(currentIndex);
@@ -183,7 +283,11 @@ const Carousel = () => {
       <div className="w-full h-full flex justify-center items-center">
         <ul
           ref={slideRef}
-          className="relative w-[1240px] h-full list-none m-0 p-0 flex justify-center items-center"
+          onMouseEnter={stopCarousel}
+          onMouseLeave={startCarousel}
+          className={`flex relative lg:justify-center lg:items-center lg:w-[1240px] h-full list-none ${
+            screenWidth >= 550 ? "mr-[1200px]" : "mr-[1100px]"
+          }  lg:m-0 p-0`}
         >
           {contents.map((content, index) => (
             <li
@@ -195,8 +299,7 @@ const Carousel = () => {
                   <img
                     src={content.imageUrl}
                     alt={content.title}
-                    style={{ borderRadius: '50%', width : '120px;' }}
-                    className="absolute -top-5 -right-5 h-26 w-26 object-cover mb-4 rounded-lg"
+                    className="absolute -top-5 rounded-[50%] -right-5 h-[115px] w-[115px] md:h-[120px] md:w-[120px] lg:h-[120px] lg:w-[120px] object-cover mb-4"
                   />
                 </div>
                 <div className="absolute left-8 top-0 h-full w-[45px] band-feedback"></div>
@@ -211,7 +314,7 @@ const Carousel = () => {
                 </div>
                 <div className="pl-12 px-14 text-customPurple300">
                   <h2 className="text-[25px] font-semibold">
-                    { content.empresa}
+                    {content.empresa}
                   </h2>
                   <div className="w-full h-1 bg-customPurple100"></div>
                   {/* <div className="flex mb-2 w-full align-stars">
@@ -227,9 +330,11 @@ const Carousel = () => {
                     ))}
                   </div> */}
                   <h2 className="text-[25px] font-base mb-2">
-                    { content.title }
+                    {content.title}
                   </h2>
-                  <p className=" text-[18px]">{content.description}</p>
+                  <p className="text-[15px] md:text-[18px] lg:text-[18px] w-[130%] md:w-full lg:w-full leading-4 md:leading-[26px] lg:leading-[26px]">
+                    {content.description}
+                  </p>
                 </div>
               </div>
             </li>
