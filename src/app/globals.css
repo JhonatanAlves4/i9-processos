@@ -265,6 +265,12 @@ body {
   height: 8rem;
 }
 
+@media (max-width: 500px) {
+  .card-size {
+    width: 5rem;
+  }
+}
+
 .text-services {
   font-size: 16px;
   line-height: 1.1rem;
