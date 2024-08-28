@@ -32,10 +32,12 @@ export default function Mobile() {
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
                   <Link
                     href="#Hero"
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault(); // Previne o comportamento padrão do link
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
-                    onTouchEnd={() => {
+                    onTouchEnd={(e) => {
+                      e.preventDefault();
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -44,10 +46,12 @@ export default function Mobile() {
                   </Link>
                   <Link
                     href="#About"
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault(); // Previne o comportamento padrão do link
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
-                    onTouchEnd={() => {
+                    onTouchEnd={(e) => {
+                      e.preventDefault();
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -56,10 +60,12 @@ export default function Mobile() {
                   </Link>
                   <Link
                     href="#Services"
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault(); // Previne o comportamento padrão do link
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
-                    onTouchEnd={() => {
+                    onTouchEnd={(e) => {
+                      e.preventDefault();
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -68,10 +74,12 @@ export default function Mobile() {
                   </Link>
                   <Link
                     href="#Solutions"
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault(); // Previne o comportamento padrão do link
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
-                    onTouchEnd={() => {
+                    onTouchEnd={(e) => {
+                      e.preventDefault();
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -80,10 +88,12 @@ export default function Mobile() {
                   </Link>
                   <Link
                     href="#Feedbacks"
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault(); // Previne o comportamento padrão do link
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
-                    onTouchEnd={() => {
+                    onTouchEnd={(e) => {
+                      e.preventDefault();
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -92,10 +102,12 @@ export default function Mobile() {
                   </Link>
                   <Link
                     href="#Contact"
-                    onClick={() => {
+                    onClick={(e) => {
+                      e.preventDefault(); // Previne o comportamento padrão do link
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
-                    onTouchEnd={() => {
+                    onTouchEnd={(e) => {
+                      e.preventDefault();
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
