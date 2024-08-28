@@ -31,50 +31,74 @@ export default function Mobile() {
                   <Link
                     href="/#Hero"
                     legacyBehavior
-                    onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Home</a>
+                    <a
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Home
+                    </a>
                   </Link>
                   <Link
                     href="/#About"
                     legacyBehavior
-                    onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Sobre Nós</a>
+                    <a
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Sobre Nós
+                    </a>
                   </Link>
                   <Link
                     href="/#Services"
                     legacyBehavior
-                    onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Serviços</a>
+                    <a
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Serviços
+                    </a>
                   </Link>
                   <Link
                     href="/#Solutions"
                     legacyBehavior
-                    onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Portfólio</a>
+                    <a
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Portfólio
+                    </a>
                   </Link>
                   <Link
                     href="/#Feedbacks"
                     legacyBehavior
-                    onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Testemunhos</a>
+                    <a
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Testemunhos
+                    </a>
                   </Link>
                   <Link
                     href="/#Contact"
                     legacyBehavior
-                    onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Contatos</a>
+                    <a
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Contatos
+                    </a>
                   </Link>
                 </div>
               )}
