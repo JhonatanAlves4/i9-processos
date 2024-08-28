@@ -40,82 +40,65 @@ export default function Mobile() {
               </button>
               {dropdownOpen && (
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
-                  <a
-                    href="#Hero"
-                    onClick={() => {
-                      smoothScrollToSection("#Hero");
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    onTouchEnd={() => {
-                      smoothScrollToSection("#Hero");
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                  >
-                    Home
-                  </a>
-                  <a
-                    href="#About"
-                    onClick={() => {
-                      smoothScrollToSection("#About");
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    onTouchEnd={() => {
-                      smoothScrollToSection("#About");
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                  >
-                    Sobre Nós
-                  </a>
-                  <a
-                    href="#Services"
-                    onClick={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    onTouchEnd={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                  >
-                    Serviços
-                  </a>
-                  <a
-                    href="#Solutions"
-                    onClick={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    onTouchEnd={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                  >
-                    Portfólio
-                  </a>
-                  <a
-                    href="#Feedbacks"
-                    onClick={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    onTouchEnd={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                  >
-                    Testemunhos
-                  </a>
-                  <a
-                    href="#Contact"
-                    onClick={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    onTouchEnd={() => {
-                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
-                    }}
-                    className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                  >
-                    Contatos
-                  </a>
+                  <li className="list-none p-2">
+                    <a
+                      href="#Hero"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Home
+                    </a>
+                  </li>
+
+                  <li className="list-none p-2">
+                    <a
+                      href="#About"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Sobre Nós
+                    </a>
+                  </li>
+
+                  <li className="list-none p-2">
+                    <a
+                      href="#RealServices"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Serviços
+                    </a>
+                  </li>
+
+                  <li className="list-none p-2">
+                    <a
+                      href="#Solutions"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Portfólio
+                    </a>
+                  </li>
+
+                  <li className="list-none p-2">
+                    <a
+                      href="#Feedbacks"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Testemunhos
+                    </a>
+                  </li>
+
+                  <li className="list-none p-2">
+                    <a
+                      href="#Contact"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                    >
+                      Contatos
+                    </a>
+                  </li>
                 </div>
               )}
             </div>
