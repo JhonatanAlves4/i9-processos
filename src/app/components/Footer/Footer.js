@@ -6,40 +6,40 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <section id="Footer" className="text-black">
-      <div className="bg-customBlue100 rounded-[50px] mx-10 px-4 lg:px-[60px] 2xl:px-[170px] py-8 mb-4 pr-[1rem]">
+      <div className="bg-customBlue100 rounded-[50px] mx-2 md:mx-8 lg:mx-10 px-4 lg:px-[60px] 2xl:px-[170px] py-8 mb-4 pr-[1rem]">
         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row justify-between align-center footer-design">
           <div className="flex flex-row justify-around order-1 md:order-3 gap-6 mt-10">
             <div className="mb-4 md:mb-0">
-              <h2 className="mb-2 text-sm md-text-[20px] lg:text-[20px] font-semibold">
+              <h2 className="mb-2 text-center text-sm md-text-[20px] lg:text-[20px] font-semibold">
                 Páginas
               </h2>
               <Link
                 href="#"
-                className="block text-15px mb-2 md:text-15px hover:text-pink-500"
+                className="block text-center text-15px mb-2 md:text-15px hover:text-pink-500"
               >
                 Início
               </Link>
               <Link
                 href="#Services"
-                className="block text-15px mb-2 md:text-15px hover:text-pink-500"
+                className="block text-center text-15px mb-2 md:text-15px hover:text-pink-500"
               >
                 Serviços
               </Link>
               <Link
                 href="#About"
-                className="block text-15px mb-2 md:text-15px hover:text-pink-500"
+                className="block text-center text-15px mb-2 md:text-15px hover:text-pink-500"
               >
                 Sobre nós
               </Link>
               <Link
                 href="#"
-                className="block text-15px mb-2 md:text-15px hover:text-pink-500"
+                className="block text-center text-15px mb-2 md:text-15px hover:text-pink-500"
               >
                 Termos de uso
               </Link>
               <Link
                 href="#"
-                className="block text-15px mb-2 md:text-15px hover:text-pink-500"
+                className="block text-center text-15px mb-2 md:text-15px hover:text-pink-500"
               >
                 Privacidade
               </Link>

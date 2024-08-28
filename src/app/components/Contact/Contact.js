@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="Contact"
-      className="h-fit md:h-[673px] lg:h-[673px] relative mx-10 rounded-[50px] mb-10 "
+      className="h-fit md:h-[673px] lg:h-[673px] relative mx-2 md:mx-8 lg:mx-10 rounded-[50px] mb-10 "
     >
       <div
         className="h-full bg-cover pl-[20%] bg-center rounded-[50px]"
