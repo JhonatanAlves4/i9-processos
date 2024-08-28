@@ -268,6 +268,15 @@ body {
 @media (max-width: 500px) {
   .card-size {
     width: 7rem;
+    height: 80px;
+  }
+
+  .slider-container {
+    height: 80px;
+  }
+
+  .partners-div {
+    height: 80px;
   }
 }
 
