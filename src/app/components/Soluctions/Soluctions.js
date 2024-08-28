@@ -105,37 +105,29 @@ export default function Soluctions() {
                 <div className="relative">
                   <ProgressCircle percentage={percentage} />
                   <div className="div-chart">
-                    <h1 className="text-chart">{percentage}%</h1>
+                    <h1 className="text-chart">+257</h1>
                   </div>
                 </div>
 
                 <div className="flex flex-col h-fit w-[240px] pl-8">
-                  <h2 className="text-[29px] leading-7 text-white font-bold">
-                    Crescimento
-                    <br /> empresarial
+                  <h2 className="text-[29px] mt-[2rem] leading-7 text-white font-bold">
+                    Projetos já
+                    <br /> trabalhados
                   </h2>
-                  <p className="text-white text-[18px] mt-4">
-                    Transite ideias de primeira linha com eficiência antes do
-                    mercado
-                  </p>
                 </div>
 
                 <div className="relative ml-4">
                   <ProgressCircle percentage={percentage} />
                   <div className="div-chart">
-                    <h1 className="text-chart">{percentage}%</h1>
+                    <h1 className="text-chart">+38</h1>
                   </div>
                 </div>
 
                 <div className="flex flex-col h-fit w-[240px] pl-8">
-                  <h2 className="text-[29px] leading-7 text-white font-bold">
-                    Crescimento
-                    <br /> empresarial
+                  <h2 className="text-[29px] mt-[2rem] leading-7 text-white font-bold">
+                    Mil usuários
+                    <br /> impactados
                   </h2>
-                  <p className="text-white text-[18px] mt-4">
-                    Transite ideias de primeira linha com eficiência antes do
-                    mercado
-                  </p>
                 </div>
               </div>
             </div>
@@ -146,19 +138,15 @@ export default function Soluctions() {
                   <div className="relative">
                     <ProgressCircle percentage={percentage} />
                     <div className="div-chart-responsive">
-                      <h1 className="text-chart-responsive">{percentage}%</h1>
+                      <h1 className="text-chart-responsive">+257</h1>
                     </div>
                   </div>
 
                   <div className="flex flex-col h-fit w-[240px]">
                     <h2 className="text-[29px] leading-7 text-white font-bold mt-4">
-                      Crescimento
-                      <br /> empresarial
+                      Projetos já
+                      <br /> trabalhados
                     </h2>
-                    <p className="text-white text-[18px] mt-4">
-                      Transite ideias de primeira linha com eficiência antes do
-                      mercado
-                    </p>
                   </div>
                 </div>
 
@@ -167,19 +155,15 @@ export default function Soluctions() {
                     <div className="relative">
                       <ProgressCircle percentage={percentage} />
                       <div className="div-chart-responsive">
-                        <h1 className="text-chart-responsive">{percentage}%</h1>
+                        <h1 className="text-chart-responsive">+38</h1>
                       </div>
                     </div>
 
                     <div className="flex flex-col h-fit w-[240px]">
                       <h2 className="text-[29px] leading-7 text-white font-bold mt-4">
-                        Crescimento
-                        <br /> empresarial
+                        Mil usuários
+                        <br /> impactados
                       </h2>
-                      <p className="text-white text-[18px] mt-4">
-                        Transite ideias de primeira linha com eficiência antes
-                        do mercado
-                      </p>
                     </div>
                   </div>
                 </div>

@@ -97,7 +97,7 @@ export default function Services2Responsive() {
     <>
       <section
         id="Services"
-        className="flex lg:hidden justify-center items-center w-screen h-screen mt-[5rem]"
+        className="flex lg:hidden justify-center items-center w-screen h-screen mt-[-2rem]"
         style={{
           backgroundImage: "url('/fundo-services.png')",
           backgroundPosition: "center",
