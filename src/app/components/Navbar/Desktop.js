@@ -1,19 +1,16 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { useState } from "react";
 
 export default function Desktop() {
   const router = useRouter();
-  const [activeSection, setActiveSection] = useState("");
 
   return (
-    <nav className="flex flex-col items-center w-[100%]">
+    <nav className="hidden lg:flex flex-col items-center w-[100%]">
       <div className="fixed w-[99.3%] left-0 top-0 z-50 h-[87px] bg-customNewBlue"></div>
       <div className="flex fixed justify-center w-[96%] top-2 z-50 h-[79px] bg-customBlue100 shadow-lg items-center rounded-full">
-        <div className="flex items-center justify-between w-[55%] ml-14 text-xl">
+        <div className="flex items-center justify-between w-[80%] 2xl:w-[55%] ml-14 text-xl">
           <a href="#Hero" className={`w-fit`}>
             <button className={`nav-link font-semibold z-50`}>Home</button>
           </a>
