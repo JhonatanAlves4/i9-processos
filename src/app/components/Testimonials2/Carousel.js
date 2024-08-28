@@ -345,7 +345,7 @@ const Carousel = () => {
         </ul>
       </div>
       <div className="mt-4 flex space-x-2">
-        <div className="absolute flex justify-between top-[32rem] translate-x-[-50%] w-[20rem] rotate-180">
+        <div className="absolute flex justify-between top-[32rem] translate-x-[-50%] ml-[1rem] md:ml-[0rem] w-[10rem] md:w-[20rem] rotate-180">
           {contents.map((_, index) => (
             <button
               key={index}

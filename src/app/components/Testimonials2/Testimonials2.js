@@ -7,7 +7,7 @@ const Testimonials2 = () => {
   return (
     <div
       id="Feedbacks"
-      className="min-h-[900px] relative items-center mt-10 pb-20 h-auto w-[100vw] bg-gray-100 skew-y-3"
+      className="min-h-[950px] md:min-h-[900px] relative items-center mt-10 pb-20 h-auto w-[100vw] bg-gray-100 skew-y-3"
       style={{
         backgroundImage: "url('/fundo-testimonials.png')",
         backgroundPosition: "center",
