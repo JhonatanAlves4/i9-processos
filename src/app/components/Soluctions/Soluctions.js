@@ -90,6 +90,16 @@ export default function Soluctions() {
               </p>
             </div>
 
+            <div className="relative flex lg:hidden mb-8">
+              <Image
+                src="/imgwithtext.svg"
+                alt="fundo"
+                width={296}
+                height={250}
+                className="bg-contain w-full"
+              />
+            </div>
+
             <div className="hidden md:flex lg:flex flex-row">
               <div className="flex flex-row">
                 <div className="relative">
