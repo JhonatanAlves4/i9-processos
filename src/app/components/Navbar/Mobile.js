@@ -29,42 +29,42 @@ export default function Mobile() {
               {dropdownOpen && (
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
                   <Link
-                    href="/#Hero"
+                    href="#Hero"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Home
                   </Link>
                   <Link
-                    href="/#About"
+                    href="#About"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Sobre Nós
                   </Link>
                   <Link
-                    href="/#Services"
+                    href="#Services"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Serviços
                   </Link>
                   <Link
-                    href="/#Solutions"
+                    href="#Solutions"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Portfólio
                   </Link>
                   <Link
-                    href="/#Feedbacks"
+                    href="#Feedbacks"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Testemunhos
                   </Link>
                   <Link
-                    href="/#Contact"
+                    href="#Contact"
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
