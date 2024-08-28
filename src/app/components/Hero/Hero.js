@@ -32,7 +32,7 @@ export default function Hero() {
             <a
               className="w-fit"
               target="_blank"
-              href="https://wa.me/554891523013?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20a%20I9%20TI%20Solutions."
+              href="https://wa.me/5548988143504?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20a%20I9%20TI%20Solutions."
             >
               <button
                 className="w-[285px] text-[20px] py-4 px-8 rounded-full text-white hover:bg-blue-700 transition duration-300 ease-in-out gradient-bg font-semibold"
