@@ -35,6 +35,9 @@ export default function Mobile() {
                     onClick={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
+                    onTouchEnd={() => {
+                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
+                    }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Home
@@ -42,6 +45,9 @@ export default function Mobile() {
                   <Link
                     href="#About"
                     onClick={() => {
+                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
+                    }}
+                    onTouchEnd={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -53,6 +59,9 @@ export default function Mobile() {
                     onClick={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
+                    onTouchEnd={() => {
+                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
+                    }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Serviços
@@ -60,6 +69,9 @@ export default function Mobile() {
                   <Link
                     href="#Solutions"
                     onClick={() => {
+                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
+                    }}
+                    onTouchEnd={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -71,6 +83,9 @@ export default function Mobile() {
                     onClick={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
+                    onTouchEnd={() => {
+                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
+                    }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Testemunhos
@@ -78,6 +93,9 @@ export default function Mobile() {
                   <Link
                     href="#Contact"
                     onClick={() => {
+                      setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
+                    }}
+                    onTouchEnd={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
