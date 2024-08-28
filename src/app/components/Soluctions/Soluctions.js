@@ -70,7 +70,7 @@ export default function Soluctions() {
       id="Solutions"
       className="flex justify-center h-[auto] w-[100%] py-20"
     >
-      <div className="w-[80%] px-12 exp-container">
+      <div className="w-[80%] px-4 md:px-12 exp-container">
         <h1 className="font-alfa text-[25px] md:text-[30px] lg:text-[35px] font-normal mb-20 text-center mt-8 text-white">
           Nos relacionamos com o ecossistema da sua <br />
           empresa para inovar e atingir resultados extraordinários
@@ -79,10 +79,10 @@ export default function Soluctions() {
         <div className="flex flex-col lg:flex-row">
           <div className="flex flex-col w-full lg:w-[50%]">
             <div className="flex flex-col mb-10 lg:pr-[8rem] lg:mt-[8rem] lg:media-pedding">
-              <h1 className="font-alfa text-[25px] md:text-[30px] lg:text-[35px] font-normal mb-12 text-white">
+              <h1 className="font-alfa text-[20px] md:text-[30px] lg:text-[35px] font-normal mb-12 text-white">
                 Mais de 12 anos de experiência em projetos inovadores
               </h1>
-              <p className="text-[24px] md:text-[28px] lg:text-[32px] leading-8 text-white">
+              <p className="text-[18px] md:text-[28px] lg:text-[32px] leading-8 text-white">
                 Nos destacamos por buscar entender com profundidade, as
                 necessidades e expectativas de cada projeto, promovendo
                 constante aproximação, colaboração e engajamento de nossos times

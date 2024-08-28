@@ -4,8 +4,8 @@ import Image from "next/image";
 
 export default function Tecs() {
   return (
-    <section className="w-[100%] flex flex-col justify-center items-center align-center px-10 text-center my-[0px] md:my-20">
-      <h1 className="text-[30px] md:text-[40px] font-bold mb-8 text-white">
+    <section className="w-[100%] flex flex-col justify-center items-center align-center px-10 text-center mt-[5rem] md:my-20">
+      <h1 className="text-[25px] md:text-[40px] font-semibold mb-8 text-white">
         MELHORAR E INOVAR COM AS TENDÊNCIAS TECNOLÓGICAS
       </h1>
 
