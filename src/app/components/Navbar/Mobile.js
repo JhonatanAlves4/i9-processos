@@ -54,7 +54,7 @@ export default function Mobile() {
                   >
                     Home
                   </Link>
-                  <Link
+                  <a
                     href="#About"
                     onClick={() => {
                       smoothScrollToSection("#About");
@@ -67,7 +67,7 @@ export default function Mobile() {
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Sobre Nós
-                  </Link>
+                  </a>
                   <Link
                     href="#Services"
                     onClick={() => {
