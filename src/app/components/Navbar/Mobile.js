@@ -40,8 +40,8 @@ export default function Mobile() {
               </button>
               {dropdownOpen && (
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
-                  <Link
-                    href={"#Hero"}
+                  <a
+                    href="#Hero"
                     onClick={() => {
                       smoothScrollToSection("#Hero");
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
@@ -53,7 +53,7 @@ export default function Mobile() {
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Home
-                  </Link>
+                  </a>
                   <a
                     href="#About"
                     onClick={() => {
@@ -68,7 +68,7 @@ export default function Mobile() {
                   >
                     Sobre Nós
                   </a>
-                  <Link
+                  <a
                     href="#Services"
                     onClick={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
@@ -79,8 +79,8 @@ export default function Mobile() {
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Serviços
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="#Solutions"
                     onClick={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
@@ -91,8 +91,8 @@ export default function Mobile() {
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Portfólio
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="#Feedbacks"
                     onClick={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
@@ -103,8 +103,8 @@ export default function Mobile() {
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Testemunhos
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="#Contact"
                     onClick={() => {
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
@@ -115,7 +115,7 @@ export default function Mobile() {
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
                     Contatos
-                  </Link>
+                  </a>
                 </div>
               )}
             </div>
