@@ -29,46 +29,52 @@ export default function Mobile() {
               {dropdownOpen && (
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
                   <Link
-                    href="#Hero"
+                    href="/#Hero"
+                    legacyBehavior
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    Home
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Home</a>
                   </Link>
                   <Link
-                    href="#About"
+                    href="/#About"
+                    legacyBehavior
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    Sobre Nós
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Sobre Nós</a>
                   </Link>
                   <Link
-                    href="#Services"
+                    href="/#Services"
+                    legacyBehavior
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    Serviços
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Serviços</a>
                   </Link>
                   <Link
-                    href="#Solutions"
+                    href="/#Solutions"
+                    legacyBehavior
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    Portfólio
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Portfólio</a>
                   </Link>
                   <Link
-                    href="#Feedbacks"
+                    href="/#Feedbacks"
+                    legacyBehavior
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    Testemunhos
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Testemunhos</a>
                   </Link>
                   <Link
-                    href="#Contact"
+                    href="/#Contact"
+                    legacyBehavior
                     onClick={() => setDropdownOpen(!dropdownOpen)}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                   >
-                    Contatos
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">Contatos</a>
                   </Link>
                 </div>
               )}
