@@ -8,6 +8,16 @@ import Menu from "../icons/Menu";
 export default function Mobile() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
+  const smoothScrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      window.scrollTo({
+        top: element.offsetTop - 50,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <div className="block lg:hidden">
       <div className="fixed w-full z-50 h-[66px] bg-[#808CF5] backdrop-blur-lg shadow-lg ">
@@ -31,12 +41,13 @@ export default function Mobile() {
               {dropdownOpen && (
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
                   <Link
-                    href="/#Hero"
-                    scroll={false}
+                    href={"#Hero"}
                     onClick={() => {
+                      smoothScrollToSection("#Hero");
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     onTouchEnd={() => {
+                      smoothScrollToSection("#Hero");
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
@@ -44,12 +55,13 @@ export default function Mobile() {
                     Home
                   </Link>
                   <Link
-                    href="/#About"
-                    scroll={false}
+                    href="#About"
                     onClick={() => {
+                      smoothScrollToSection("#About");
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     onTouchEnd={() => {
+                      smoothScrollToSection("#About");
                       setTimeout(() => setDropdownOpen(!dropdownOpen), 100);
                     }}
                     className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
