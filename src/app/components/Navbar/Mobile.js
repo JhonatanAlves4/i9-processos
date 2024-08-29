@@ -42,8 +42,12 @@ export default function Mobile() {
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
                   <li className="list-none p-2">
                     <a
-                      href="#Hero"
-                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      onClick={() => {
+                        setDropdownOpen(!dropdownOpen);
+                        document
+                          .getElementById("Hero")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}
                       className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                     >
                       Home
@@ -52,8 +56,12 @@ export default function Mobile() {
 
                   <li className="list-none p-2">
                     <a
-                      href="#About"
-                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      onClick={() => {
+                        setDropdownOpen(!dropdownOpen);
+                        document
+                          .getElementById("About")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}
                       className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                     >
                       Sobre Nós
@@ -62,8 +70,12 @@ export default function Mobile() {
 
                   <li className="list-none p-2">
                     <a
-                      href="#RealServices"
-                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      onClick={() => {
+                        setDropdownOpen(!dropdownOpen);
+                        document
+                          .getElementById("RealServices")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}
                       className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                     >
                       Serviços
@@ -72,8 +84,12 @@ export default function Mobile() {
 
                   <li className="list-none p-2">
                     <a
-                      href="#Solutions"
-                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      onClick={() => {
+                        setDropdownOpen(!dropdownOpen);
+                        document
+                          .getElementById("Solutions")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}
                       className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                     >
                       Portfólio
@@ -82,8 +98,12 @@ export default function Mobile() {
 
                   <li className="list-none p-2">
                     <a
-                      href="#Feedbacks"
-                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      onClick={() => {
+                        setDropdownOpen(!dropdownOpen);
+                        document
+                          .getElementById("Feedbacks")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}
                       className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                     >
                       Testemunhos
@@ -92,8 +112,12 @@ export default function Mobile() {
 
                   <li className="list-none p-2">
                     <a
-                      href="#Contact"
-                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                      onClick={() => {
+                        setDropdownOpen(!dropdownOpen);
+                        document
+                          .getElementById("Contact")
+                          .scrollIntoView({ behavior: "smooth" });
+                      }}
                       className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
                     >
                       Contatos
