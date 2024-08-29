@@ -14,7 +14,7 @@ import WhatsAppButton from "./components/WhatsApp/WhatsApp";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col">
       <Navbar />
       {/* <Hero />
       <About />
@@ -30,6 +30,30 @@ export default function Home() {
       <Contact />
       <Footer />
       <WhatsAppButton /> */}
+      <section
+        id="Home"
+        className="flex w-screen h-screen bg-blue-400"
+      ></section>
+      <section
+        id="About"
+        className="flex w-screen h-screen bg-purple-500"
+      ></section>
+      <section
+        id="RealServices"
+        className="flex w-screen h-screen bg-yellow-300"
+      ></section>
+      <section
+        id="Solutions"
+        className="flex w-screen h-screen bg-green-400"
+      ></section>
+      <section
+        id="Feedbacks"
+        className="flex w-screen h-screen bg-gray-400"
+      ></section>
+      <section
+        id="Contact"
+        className="flex w-screen h-screen bg-black"
+      ></section>
     </main>
   );
 }
