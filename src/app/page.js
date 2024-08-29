@@ -18,12 +18,12 @@ export default function Home() {
       <Navbar />
       {/* <Hero />
       <About />
-      <Tecs />
+      <Tecs /> */}
       <section id="RealServices">
         <Services2 />
         <Services2Responsive />
       </section>
-      <Possibilits />
+      {/* <Possibilits />
       <Soluctions />
       <Testimonials2 />
       <HomePartners />
@@ -31,17 +31,17 @@ export default function Home() {
       <Footer />
       <WhatsAppButton /> */}
       <section
-        id="Home"
+        id="Hero"
         className="flex w-screen h-screen bg-blue-400"
       ></section>
       <section
         id="About"
         className="flex w-screen h-screen bg-purple-500"
       ></section>
-      <section
+      {/* <section
         id="RealServices"
         className="flex w-screen h-screen bg-yellow-300"
-      ></section>
+      ></section> */}
       <section
         id="Solutions"
         className="flex w-screen h-screen bg-green-400"
