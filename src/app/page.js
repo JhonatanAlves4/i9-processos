@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Tecs from "./components/About/Tecs";
 import Possibilits from "./components/Possibilits/Possibilits";
@@ -14,6 +15,7 @@ import WhatsAppButton from "./components/WhatsApp/WhatsApp";
 export default function Home() {
   return (
     <main>
+      <Navbar />
       <Hero />
       <About />
       <Tecs />

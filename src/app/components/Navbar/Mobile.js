@@ -19,7 +19,7 @@ export default function Mobile() {
   };
 
   return (
-    <div className="block lg:hidden">
+    <div className="flex lg:hidden">
       <div className="fixed w-full z-50 h-[66px] bg-[#808CF5] backdrop-blur-lg shadow-lg ">
         <div className="mx-auto py-2 flex justify-between items-center max-w-6xl px-6">
           <div className="text-lg font-bold">

@@ -22,8 +22,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={blinker.className}>
-        <div className="flex flex-col h-screen w-screen overflow-y-auto  scrollable-container overflow-x-hidden bg-gradient-to-b from-customNewBlue to-customNewPurple">
-          <Navbar />
+        <div className="flex flex-col h-screen w-screen overflow-y-auto scrollable-container overflow-x-hidden bg-gradient-to-b from-customNewBlue to-customNewPurple">
           {children}
         </div>
       </body>
