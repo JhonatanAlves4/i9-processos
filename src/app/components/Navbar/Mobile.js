@@ -40,86 +40,86 @@ export default function Mobile() {
               </button>
               {dropdownOpen && (
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
-                  <li className="list-none p-2">
-                    <a
-                      onClick={() => {
-                        setDropdownOpen(!dropdownOpen);
-                        document
-                          .getElementById("Hero")
-                          .scrollIntoView({ behavior: "smooth" });
-                      }}
-                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                    >
+                  <li
+                    onClick={() => {
+                      setDropdownOpen(!dropdownOpen);
+                      document
+                        .getElementById("Hero")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="list-none p-2"
+                  >
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
                       Home
                     </a>
                   </li>
 
-                  <li className="list-none p-2">
-                    <a
-                      onClick={() => {
-                        setDropdownOpen(!dropdownOpen);
-                        document
-                          .getElementById("About")
-                          .scrollIntoView({ behavior: "smooth" });
-                      }}
-                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                    >
+                  <li
+                    onClick={() => {
+                      setDropdownOpen(!dropdownOpen);
+                      document
+                        .getElementById("About")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="list-none p-2"
+                  >
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
                       Sobre Nós
                     </a>
                   </li>
 
-                  <li className="list-none p-2">
-                    <a
-                      onClick={() => {
-                        setDropdownOpen(!dropdownOpen);
-                        document
-                          .getElementById("RealServices")
-                          .scrollIntoView({ behavior: "smooth" });
-                      }}
-                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                    >
+                  <li
+                    onClick={() => {
+                      setDropdownOpen(!dropdownOpen);
+                      document
+                        .getElementById("RealServices")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="list-none p-2"
+                  >
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
                       Serviços
                     </a>
                   </li>
 
-                  <li className="list-none p-2">
-                    <a
-                      onClick={() => {
-                        setDropdownOpen(!dropdownOpen);
-                        document
-                          .getElementById("Solutions")
-                          .scrollIntoView({ behavior: "smooth" });
-                      }}
-                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                    >
+                  <li
+                    onClick={() => {
+                      setDropdownOpen(!dropdownOpen);
+                      document
+                        .getElementById("Solutions")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="list-none p-2"
+                  >
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
                       Portfólio
                     </a>
                   </li>
 
-                  <li className="list-none p-2">
-                    <a
-                      onClick={() => {
-                        setDropdownOpen(!dropdownOpen);
-                        document
-                          .getElementById("Feedbacks")
-                          .scrollIntoView({ behavior: "smooth" });
-                      }}
-                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                    >
+                  <li
+                    onClick={() => {
+                      setDropdownOpen(!dropdownOpen);
+                      document
+                        .getElementById("Feedbacks")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="list-none p-2"
+                  >
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
                       Testemunhos
                     </a>
                   </li>
 
-                  <li className="list-none p-2">
-                    <a
-                      onClick={() => {
-                        setDropdownOpen(!dropdownOpen);
-                        document
-                          .getElementById("Contact")
-                          .scrollIntoView({ behavior: "smooth" });
-                      }}
-                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
-                    >
+                  <li
+                    onClick={() => {
+                      setDropdownOpen(!dropdownOpen);
+                      document
+                        .getElementById("Contact")
+                        .scrollIntoView({ behavior: "smooth" });
+                    }}
+                    className="list-none p-2"
+                  >
+                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
                       Contatos
                     </a>
                   </li>
