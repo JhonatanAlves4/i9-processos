@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <About />
       <Tecs />
       <section id="RealServices">
@@ -29,7 +29,7 @@ export default function Home() {
       <HomePartners />
       <Contact />
       <Footer />
-      <WhatsAppButton />
+      <WhatsAppButton /> */}
     </main>
   );
 }

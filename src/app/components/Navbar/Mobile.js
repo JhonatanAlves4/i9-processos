@@ -19,7 +19,7 @@ export default function Mobile() {
   };
 
   return (
-    <div className="flex lg:hidden">
+    <div className="flex flex-col lg:hidden">
       <div className="fixed w-full z-50 h-[66px] bg-[#808CF5] backdrop-blur-lg shadow-lg ">
         <div className="mx-auto py-2 flex justify-between items-center max-w-6xl px-6">
           <div className="text-lg font-bold">
@@ -105,6 +105,30 @@ export default function Mobile() {
           </div>
         </div>
       </div>
+      <section
+        id="Home"
+        className="flex w-screen h-screen bg-blue-400"
+      ></section>
+      <section
+        id="About"
+        className="flex w-screen h-screen bg-purple-500"
+      ></section>
+      <section
+        id="RealServices"
+        className="flex w-screen h-screen bg-yellow-300"
+      ></section>
+      <section
+        id="Solutions"
+        className="flex w-screen h-screen bg-green-400"
+      ></section>
+      <section
+        id="Feedbacks"
+        className="flex w-screen h-screen bg-gray-400"
+      ></section>
+      <section
+        id="Contact"
+        className="flex w-screen h-screen bg-black"
+      ></section>
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import { Blinker } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar/Navbar";
 
 const blinker = Blinker({
   subsets: ["latin"],
