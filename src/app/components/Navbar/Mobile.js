@@ -40,88 +40,64 @@ export default function Mobile() {
               </button>
               {dropdownOpen && (
                 <div className="absolute flex flex-col w-fit h-fit justify-between bg-[#808CF5] right-[0px] top-[60px] rounded-[10px]">
-                  <li
-                    onClick={() => {
-                      setDropdownOpen(!dropdownOpen);
-                      document
-                        .getElementById("Hero")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }}
-                    className="list-none p-2"
-                  >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
+                  <li className="list-none p-2">
+                    <Link
+                      href="/#Hero"
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                    >
                       Home
-                    </a>
+                    </Link>
                   </li>
 
-                  <li
-                    onClick={() => {
-                      setDropdownOpen(!dropdownOpen);
-                      document
-                        .getElementById("About")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }}
-                    className="list-none p-2"
-                  >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
+                  <li className="list-none p-2">
+                    <Link
+                      href="/#About"
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                    >
                       Sobre Nós
-                    </a>
+                    </Link>
                   </li>
 
-                  <li
-                    onClick={() => {
-                      setDropdownOpen(!dropdownOpen);
-                      document
-                        .getElementById("RealServices")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }}
-                    className="list-none p-2"
-                  >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
+                  <li className="list-none p-2">
+                    <Link
+                      href="/#RealServices"
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                    >
                       Serviços
-                    </a>
+                    </Link>
                   </li>
 
-                  <li
-                    onClick={() => {
-                      setDropdownOpen(!dropdownOpen);
-                      document
-                        .getElementById("Solutions")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }}
-                    className="list-none p-2"
-                  >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
+                  <li className="list-none p-2">
+                    <Link
+                      href="/#Solutions"
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                    >
                       Portfólio
-                    </a>
+                    </Link>
                   </li>
 
-                  <li
-                    onClick={() => {
-                      setDropdownOpen(!dropdownOpen);
-                      document
-                        .getElementById("Feedbacks")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }}
-                    className="list-none p-2"
-                  >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
+                  <li className="list-none p-2">
+                    <Link
+                      href="/#Feedbacks"
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                    >
                       Testemunhos
-                    </a>
+                    </Link>
                   </li>
 
-                  <li
-                    onClick={() => {
-                      setDropdownOpen(!dropdownOpen);
-                      document
-                        .getElementById("Contact")
-                        .scrollIntoView({ behavior: "smooth" });
-                    }}
-                    className="list-none p-2"
-                  >
-                    <a className="text-[15px] p-2 text-white font-semibold hover:text-gray-300">
+                  <li className="list-none p-2">
+                    <Link
+                      href="/#Contact"
+                      className="text-[15px] p-2 text-white font-semibold hover:text-gray-300"
+                      onClick={() => setDropdownOpen(!dropdownOpen)}
+                    >
                       Contatos
-                    </a>
+                    </Link>
                   </li>
                 </div>
               )}
